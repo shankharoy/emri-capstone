@@ -32,7 +32,7 @@ class TestBuildSession:
 class TestFetchIndicator:
     """Test fetch_indicator function with mocked HTTP."""
 
-    @patch("wdi_etl.extract._build_session")
+    @patch("wdi_etl.api.client._build_session")
     def test_successful_fetch(self, mock_build_session, mock_api_response):
         """Should return list of records on success."""
         # Setup mock
@@ -50,7 +50,7 @@ class TestFetchIndicator:
         assert len(result) == 2
         assert result[0]["countryiso3code"] == "ALB"
 
-    @patch("wdi_etl.extract._build_session")
+    @patch("wdi_etl.api.client._build_session")
     def test_retries_on_failure(self, mock_build_session):
         """Should retry on transient failures."""
         mock_session = MagicMock()
@@ -68,7 +68,7 @@ class TestFetchIndicator:
         result = fetch_indicator("NY.GDP.PCAP.CD", max_retries=3)
         assert isinstance(result, list)
 
-    @patch("wdi_etl.extract._build_session")
+    @patch("wdi_etl.api.client._build_session")
     def test_raises_after_max_retries(self, mock_build_session):
         """Should raise RuntimeError after max retries exceeded."""
         mock_session = MagicMock()
@@ -79,7 +79,7 @@ class TestFetchIndicator:
             fetch_indicator("NY.GDP.PCAP.CD", max_retries=2)
         assert "Failed to fetch" in str(exc_info.value)
 
-    @patch("wdi_etl.extract._build_session")
+    @patch("wdi_etl.api.client._build_session")
     def test_invalid_response_shape(self, mock_build_session):
         """Should raise ValueError for unexpected response format."""
         mock_session = MagicMock()
@@ -97,10 +97,10 @@ class TestFetchIndicator:
 class TestExtractAll:
     """Test extract_all function."""
 
-    @patch("wdi_etl.extract.fetch_indicator")
+    @patch("wdi_etl.api.client.fetch_indicator")
     def test_extracts_all_indicators(self, mock_fetch, temp_dir):
         """Should extract all configured indicators."""
-        from wdi_etl.config import INDICATORS
+        from wdi_etl.core.config import INDICATORS
 
         mock_fetch.return_value = [{"value": 100}]
 
@@ -109,7 +109,7 @@ class TestExtractAll:
         assert len(result) == len(INDICATORS)
         assert mock_fetch.call_count == len(INDICATORS)
 
-    @patch("wdi_etl.extract.fetch_indicator")
+    @patch("wdi_etl.api.client.fetch_indicator")
     def test_writes_json_files(self, mock_fetch, temp_dir):
         """Should write JSON files for each indicator."""
         mock_fetch.return_value = [{"value": 100}]
@@ -125,7 +125,7 @@ class TestExtractAll:
                 data = json.load(f)
                 assert isinstance(data, list)
 
-    @patch("wdi_etl.extract.fetch_indicator")
+    @patch("wdi_etl.api.client.fetch_indicator")
     def test_returns_indicator_mapping(self, mock_fetch, temp_dir):
         """Should return dict mapping indicator code to records."""
         mock_fetch.return_value = [{"value": 100}]

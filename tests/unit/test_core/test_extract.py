@@ -10,7 +10,7 @@ from unittest.mock import MagicMock, patch
 import pytest
 import requests
 
-from wdi_etl.extract import _build_session, extract_all, fetch_indicator
+from wdi_etl.api.client import _build_session, extract_all, fetch_indicator
 
 
 class TestBuildSession:

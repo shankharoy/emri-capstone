@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
-from wdi_etl.load import load_panel
+from wdi_etl.core.load import load_panel
 
 
 class TestLoadPanel:

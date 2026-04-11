@@ -8,7 +8,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from wdi_etl.__main__ import parse_args, run
+from wdi_etl.cli.commands import parse_args, run
 
 
 class TestParseArgs:

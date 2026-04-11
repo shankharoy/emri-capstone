@@ -5,7 +5,7 @@ Author: Shankha Roy (Senior Data Engineer)
 import pandas as pd
 import pytest
 
-from wdi_etl.transform import (
+from wdi_etl.core.transform import (
     _filter_years,
     _fill_missing,
     _parse_indicator_record,
@@ -106,7 +106,7 @@ class TestFilterYears:
 
     def test_filters_to_range(self):
         """Should filter rows to year range."""
-        from wdi_etl.config import YEAR_END, YEAR_START
+        from wdi_etl.core.config import YEAR_END, YEAR_START
 
         df = pd.DataFrame({"year": [2010, 2014, 2015, 2020, 2023, 2030]})
         result = _filter_years(df)
@@ -167,7 +167,8 @@ class TestFillMissing:
         })
         result = _fill_missing(df, "forward_fill")
         # ALB's null should not be filled from USA's value
-        assert pd.isna(result["value"].iloc[1])
+        alb_value = result[result["country_iso3"] == "ALB"]["value"].iloc[0]
+        assert pd.isna(alb_value)
 
 
 class TestCleanIndicator:

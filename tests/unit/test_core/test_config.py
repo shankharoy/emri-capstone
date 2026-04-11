@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from wdi_etl.config import (
+from wdi_etl.core.config import (
     COUNTRY_NAME_CORRECTIONS,
     DATA_DIR,
     INDICATORS,

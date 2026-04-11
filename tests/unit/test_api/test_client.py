@@ -16,7 +16,7 @@ class TestAPIClient:
 
     def test_session_creation(self):
         """Should create configured session."""
-        from wdi_etl.extract import _build_session
+        from wdi_etl.api.client import _build_session
 
         session = _build_session()
         assert isinstance(session, requests.Session)
@@ -25,7 +25,7 @@ class TestAPIClient:
     @patch("requests.Session.get")
     def test_get_indicator_success(self, mock_get, mock_api_response):
         """Should fetch indicator data successfully."""
-        from wdi_etl.extract import fetch_indicator
+        from wdi_etl.api.client import fetch_indicator
 
         mock_response = MagicMock()
         mock_response.json.return_value = mock_api_response
@@ -40,7 +40,7 @@ class TestAPIClient:
     @patch("requests.Session.get")
     def test_retry_logic(self, mock_get):
         """Should retry on failures."""
-        from wdi_etl.extract import fetch_indicator
+        from wdi_etl.api.client import fetch_indicator
 
         # First call raises, second succeeds
         mock_response = MagicMock()

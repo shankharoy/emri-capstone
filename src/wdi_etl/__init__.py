@@ -19,9 +19,9 @@ Quick Start
     python -m wdi_etl.eda
 """
 
-from wdi_etl.extract import extract_all
-from wdi_etl.load import load_panel
-from wdi_etl.transform import transform_all
+from wdi_etl.api.client import extract_all
+from wdi_etl.core.load import load_panel
+from wdi_etl.core.transform import transform_all
 
 __all__ = ["extract_all", "transform_all", "load_panel"]
 __author__ = "Shankha Roy"

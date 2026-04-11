@@ -9,9 +9,9 @@ from unittest.mock import MagicMock, patch
 import pandas as pd
 import pytest
 
-from wdi_etl.extract import extract_all
-from wdi_etl.load import load_panel
-from wdi_etl.transform import transform_all
+from wdi_etl.api.client import extract_all
+from wdi_etl.core.load import load_panel
+from wdi_etl.core.transform import transform_all
 
 
 class TestFullPipeline:
@@ -20,7 +20,7 @@ class TestFullPipeline:
     @pytest.fixture
     def mock_api_responses(self):
         """Mock responses for all indicators."""
-        from wdi_etl.config import INDICATORS
+        from wdi_etl.core.config import INDICATORS
 
         base_response = [
             {"page": 1, "pages": 1, "per_page": 10000, "total": 3},
@@ -50,7 +50,7 @@ class TestFullPipeline:
         ]
         return base_response
 
-    @patch("wdi_etl.extract._build_session")
+    @patch("wdi_etl.api.client._build_session")
     def test_extract_transform_load_roundtrip(self, mock_build_session, mock_api_responses, temp_dir):
         """Should execute complete ETL pipeline successfully."""
         # Setup mocks

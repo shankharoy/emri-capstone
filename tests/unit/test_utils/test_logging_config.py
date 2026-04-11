@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from wdi_etl.logger import setup_logging
+from wdi_etl.utils.logging_config import setup_logging
 
 
 class TestSetupLogging:
@@ -20,8 +20,8 @@ class TestSetupLogging:
             log_file = Path(tmp) / "test.log"
 
             # Temporarily patch LOG_FILE in config
-            import wdi_etl.config
-            original_log_file = wdi_etl.config.LOG_FILE
+            import wdi_etl.core.config
+            original_log_file = wdi_etl.core.config.LOG_FILE
             wdi_etl.config.LOG_FILE = log_file
 
             try:
@@ -37,8 +37,8 @@ class TestSetupLogging:
             log_dir = Path(tmp) / "new_logs"
             log_file = log_dir / "test.log"
 
-            import wdi_etl.config
-            original_log_file = wdi_etl.config.LOG_FILE
+            import wdi_etl.core.config
+            original_log_file = wdi_etl.core.config.LOG_FILE
             wdi_etl.config.LOG_FILE = log_file
 
             try:
@@ -52,8 +52,8 @@ class TestSetupLogging:
         with tempfile.TemporaryDirectory() as tmp:
             log_file = Path(tmp) / "test.log"
 
-            import wdi_etl.config
-            original_log_file = wdi_etl.config.LOG_FILE
+            import wdi_etl.core.config
+            original_log_file = wdi_etl.core.config.LOG_FILE
             wdi_etl.config.LOG_FILE = log_file
 
             try:
@@ -74,8 +74,8 @@ class TestSetupLogging:
         with tempfile.TemporaryDirectory() as tmp:
             log_file = Path(tmp) / "test.log"
 
-            import wdi_etl.config
-            original_log_file = wdi_etl.config.LOG_FILE
+            import wdi_etl.core.config
+            original_log_file = wdi_etl.core.config.LOG_FILE
             wdi_etl.config.LOG_FILE = log_file
 
             try:

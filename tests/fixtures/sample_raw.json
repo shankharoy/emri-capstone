@@ -1,0 +1,37 @@
+[
+  {
+    "value": 12345.67,
+    "country": {"id": "AL", "value": "Albania"},
+    "countryiso3code": "ALB",
+    "indicator": {"id": "NY.GDP.PCAP.CD", "value": "GDP per capita (current US$)"},
+    "date": "2021"
+  },
+  {
+    "value": 15000.0,
+    "country": {"id": "AL", "value": "Albania"},
+    "countryiso3code": "ALB",
+    "indicator": {"id": "NY.GDP.PCAP.CD", "value": "GDP per capita (current US$)"},
+    "date": "2022"
+  },
+  {
+    "value": null,
+    "country": {"id": "AL", "value": "Albania"},
+    "countryiso3code": "ALB",
+    "indicator": {"id": "NY.GDP.PCAP.CD", "value": "GDP per capita (current US$)"},
+    "date": "2020"
+  },
+  {
+    "value": 65000.0,
+    "country": {"id": "US", "value": "United States"},
+    "countryiso3code": "USA",
+    "indicator": {"id": "NY.GDP.PCAP.CD", "value": "GDP per capita (current US$)"},
+    "date": "2021"
+  },
+  {
+    "value": 67000.0,
+    "country": {"id": "US", "value": "United States"},
+    "countryiso3code": "USA",
+    "indicator": {"id": "NY.GDP.PCAP.CD", "value": "GDP per capita (current US$)"},
+    "date": "2022"
+  }
+]

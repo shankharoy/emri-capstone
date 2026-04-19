@@ -49,7 +49,7 @@ def sample_indicator_records() -> list[dict[str, Any]]:
 @pytest.fixture
 def sample_cleaned_dataframe(sample_indicator_records) -> pd.DataFrame:
     """Sample cleaned DataFrame for testing."""
-    from wdi_etl.transform import clean_indicator
+    from wdi_etl.core.transform import clean_indicator
     return clean_indicator(sample_indicator_records)
 
 

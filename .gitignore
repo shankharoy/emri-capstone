@@ -30,3 +30,11 @@ Thumbs.db
 # Logs
 *.log
 .claude/settings.local.json
+
+# Ignore local Claude configuration and session data
+.claude/
+
+# Ignore common sensitive files often used with Claude integrations
+.env
+**/auth.json
+**/*.secret

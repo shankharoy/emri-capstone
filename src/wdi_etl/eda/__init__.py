@@ -2,6 +2,7 @@
 EDA Module — Exploratory Data Analysis
 """
 from wdi_etl.eda.analysis import (
+    INDICATOR_LABELS,
     coverage_by_country,
     coverage_by_year,
     distribution_by_indicator,
@@ -27,4 +28,5 @@ __all__ = [
     "top_bottom",
     "time_series_data",
     "run_eda",
+    "INDICATOR_LABELS",
 ]

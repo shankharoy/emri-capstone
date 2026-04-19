@@ -18,7 +18,10 @@ from pathlib import Path
 from typing import Optional
 
 import pandas as pd
-
+# Libraries to help with data visualization
+import matplotlib.pyplot as plt  # Plotting library
+import seaborn as sns  # Statistical data visualization library
+import numpy as np  # Numerical computing library
 logger = logging.getLogger(__name__)
 
 DEFAULT_PANEL_CSV: Path = (
@@ -145,6 +148,119 @@ def missingness_heatmap_data(df: pd.DataFrame) -> pd.DataFrame:
         .astype(int)
     )
 
+
+
+def labeled_barplot(data, feature, perc=False, n=None):
+    """
+    Creates a labeled bar plot with counts or percentages.
+
+    Parameters:
+    - data (DataFrame): The dataset.
+    - feature (str): Column name to be plotted.
+    - perc (bool, optional): Whether to display percentages instead of counts (default is False).
+    - n (int, optional): Number of top categories to display (default is None, meaning all categories).
+    """
+
+    # Count the total occurrences of the feature
+    total = len(data[feature])
+
+    # Get the unique category count for the feature
+    unique_categories = data[feature].nunique()
+
+    # Set figure size based on number of categories or specified 'n'
+    plt.figure(figsize=(min(n or unique_categories, unique_categories) + 1, 5))
+
+    # Set x-axis label rotation and font size
+    plt.xticks(rotation=90, fontsize=12)
+
+    # Create a bar plot sorted by category frequency
+    ax = sns.countplot(
+        data=data,
+        x=feature,
+        palette="Paired",
+        order=data[feature].value_counts().index[:n]  # Select top 'n' categories if specified
+    )
+
+    # Annotate each bar with count or percentage
+    for p in ax.patches:
+        height = p.get_height()  # Bar height (count value)
+
+        # Determine label format: percentage or count
+        label = f"{height:.1f}%" if perc else f"{height}"
+
+        # Get bar center position for annotation
+        x = p.get_x() + p.get_width() / 2
+        y = height
+
+        # Add annotation above each bar
+        ax.annotate(
+            label,
+            (x, y),
+            ha="center",  # Horizontal alignment
+            va="bottom",  # Vertical alignment
+            fontsize=12,
+            xytext=(0, 5),  # Offset annotation slightly above the bar
+            textcoords="offset points"
+        )
+
+    # Display the plot
+    plt.show()
+
+
+
+def analyze_column(dataframe, col_names):
+    """
+    Analyze the statistical properties and visualizations of columns in a DataFrame.
+
+    Args:
+        dataframe (pd.DataFrame): The DataFrame containing the dataset.
+        col_names (list): A list of column names to analyze.
+
+    Returns:
+        None: This function prints the analysis results and displays visualizations.
+    """
+    for i, col_val in enumerate(col_names):
+        print("----------------------------------------------------")
+        print("Five number summary of '{}' variable ".format(col_val))
+        print("----------------------------------------------------")
+        print(dataframe[col_val].describe())
+        print("")
+        print("----------------------------------------------------")
+        print("The Measures of Dispersion of varibale '{}' ".format(col_val))
+        print("----------------------------------------------------")
+        print("Range is ", dataframe[col_val].max() - dataframe[col_val].min())
+        print("Variance is ", dataframe[col_val].var())
+        Q1 = dataframe[col_val].quantile(0.25)
+        Q3 = dataframe[col_val].quantile(0.75)
+        IQR = Q3 - Q1
+        print("IQR value is ", IQR)
+        print("Count of outlier observations is ", np.count_nonzero((dataframe[col_val] < (Q1 - 1.5 * IQR)) | (dataframe[col_val] > (Q3 + 1.5 * IQR))))
+        print('Number of duplicate rows is %d' % (dataframe[col_val].duplicated().sum()))
+        print("----------------------------------------------------")
+        print("Measure skewness of '{}' is ".format(col_val), dataframe[col_val].skew())
+        # If Mode < Median < Mean then the distribution is positively skewed.
+        # If Mode > Median > Mean then the distribution is negatively skewed.
+        if (dataframe[col_val].mode()[0] < dataframe[col_val].median()) and (dataframe[col_val].median() < dataframe[col_val].mean()):
+            print("{} the distribution is positively skewed".format(col_val))
+        elif (dataframe[col_val].mode()[0] > dataframe[col_val].median()) and (dataframe[col_val].median() > dataframe[col_val].mean()):
+            print("{} the distribution is negatively skewed".format(col_val))
+        else:
+            print("{} the distribution is normal".format(col_val))
+        print("----------------------------------------------------")
+        fig = plt.figure(figsize=(10, 8))
+        ax = fig.add_subplot(2, 2, 1)
+        sns.boxplot(x=dataframe[col_val])
+        ax.set_title('Box plot - {}'.format(col_names[i]), fontsize=14)
+        ax = fig.add_subplot(2, 2, 2)
+        sns.distplot(dataframe[col_val], hist=True)
+        ax.set_title('Freq dist ' + col_val, fontsize=12)
+        ax.set_xlabel(col_val, fontsize=10)
+        ax.set_ylabel('Count', fontsize=10)
+        plt.show()
+        print("----------------------------------------------------")
+
+        print("")
+        print("")
 
 def coverage_by_country(df: pd.DataFrame, min_years: int = 5) -> pd.DataFrame:
     """

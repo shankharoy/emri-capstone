@@ -1,4 +1,4 @@
-# World Bank WDI ETL Pipeline
+ # World Bank WDI ETL Pipeline
 
 ## Overview
 Production ETL pipeline for extracting, transforming, validating, and loading World Bank WDI indicators (2014–2023).
@@ -63,4 +63,4 @@ python -m wdi_etl --help
 All settings are in `src/wdi_etl/config.py`. No hard-coded values elsewhere.
 
 ## Author
-**Shankha Roy** — Senior Data Engineer
+**Shankha Roy** 

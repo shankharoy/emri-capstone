@@ -1,0 +1,46 @@
+2026-04-11 16:26:45 | INFO     | wdi_etl.cli.commands | ============================================================
+2026-04-11 16:26:45 | INFO     | wdi_etl.cli.commands | World Bank WDI ETL Pipeline — Shankha Roy
+2026-04-11 16:26:45 | INFO     | wdi_etl.cli.commands | ============================================================
+2026-04-11 16:26:45 | INFO     | wdi_etl.cli.commands | Loading cached raw JSON from D:\shankha\github\demo\data\raw
+2026-04-11 16:26:45 | INFO     | wdi_etl.cli.commands | Loaded 5 cached indicator files
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform | Starting transform stage
+2026-04-11 16:26:45 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2153 clean rows
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform |   IT.NET.USER.ZS: 2153 clean rows
+2026-04-11 16:26:45 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2481 clean rows
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform |   NY.GDP.PCAP.CD: 2481 clean rows
+2026-04-11 16:26:45 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2387 clean rows
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform |   NY.GNP.PCAP.CD: 2387 clean rows
+2026-04-11 16:26:45 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2246 clean rows
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform |   SL.TLF.CACT.FE.ZS: 2246 clean rows
+2026-04-11 16:26:45 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2550 clean rows
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform |   SP.URB.TOTL.IN.ZS: 2550 clean rows
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform | merge_to_panel: shape=(11817, 5), missing_strategy=keep
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform | validate_panel: passed=True, errors=0, warnings=0
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.transform | Transform complete: shape=(11817, 5), validation_passed=True
+2026-04-11 16:26:45 | INFO     | wdi_etl.core.load | Wrote CSV: D:\shankha\github\demo\data\output\wdi_panel.csv (602.2 KB)
+2026-04-11 16:26:46 | INFO     | wdi_etl.core.load | Wrote Parquet: D:\shankha\github\demo\data\output\wdi_panel.parquet
+2026-04-11 16:26:46 | INFO     | wdi_etl.cli.commands | Done. Shape: (11817, 5) | Elapsed: 0.6s
+2026-04-11 16:26:46 | INFO     | wdi_etl.cli.commands | Outputs: [WindowsPath('D:/shankha/github/demo/data/output/wdi_panel.csv'), WindowsPath('D:/shankha/github/demo/data/output/wdi_panel.parquet')]
+2026-04-11 16:48:25 | INFO     | wdi_etl.cli.commands | ============================================================
+2026-04-11 16:48:25 | INFO     | wdi_etl.cli.commands | World Bank WDI ETL Pipeline — Shankha Roy
+2026-04-11 16:48:25 | INFO     | wdi_etl.cli.commands | ============================================================
+2026-04-11 16:48:25 | INFO     | wdi_etl.cli.commands | Loading cached raw JSON from D:\shankha\github\demo\data\raw
+2026-04-11 16:48:25 | INFO     | wdi_etl.cli.commands | Loaded 5 cached indicator files
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform | Starting transform stage
+2026-04-11 16:48:25 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2153 clean rows
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform |   IT.NET.USER.ZS: 2153 clean rows
+2026-04-11 16:48:25 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2481 clean rows
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform |   NY.GDP.PCAP.CD: 2481 clean rows
+2026-04-11 16:48:25 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2387 clean rows
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform |   NY.GNP.PCAP.CD: 2387 clean rows
+2026-04-11 16:48:25 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2246 clean rows
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform |   SL.TLF.CACT.FE.ZS: 2246 clean rows
+2026-04-11 16:48:25 | DEBUG    | wdi_etl.core.transform | clean_indicator: 2660 input records -> 2550 clean rows
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform |   SP.URB.TOTL.IN.ZS: 2550 clean rows
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform | merge_to_panel: shape=(11817, 5), missing_strategy=keep
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform | validate_panel: passed=True, errors=0, warnings=0
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.transform | Transform complete: shape=(11817, 5), validation_passed=True
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.load | Wrote CSV: D:\shankha\github\demo\data\output\wdi_panel.csv (602.2 KB)
+2026-04-11 16:48:25 | INFO     | wdi_etl.core.load | Wrote Parquet: D:\shankha\github\demo\data\output\wdi_panel.parquet
+2026-04-11 16:48:25 | INFO     | wdi_etl.cli.commands | Done. Shape: (11817, 5) | Elapsed: 0.3s
+2026-04-11 16:48:25 | INFO     | wdi_etl.cli.commands | Outputs: [WindowsPath('D:/shankha/github/demo/data/output/wdi_panel.csv'), WindowsPath('D:/shankha/github/demo/data/output/wdi_panel.parquet')]

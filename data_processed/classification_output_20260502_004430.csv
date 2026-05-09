@@ -1,0 +1,1276 @@
+country_iso3,country_name,year,EMRI_Score,Market_Readiness_Tier,Layers_Passed,Layer1_Pass,Layer2_Pass,Layer3_Pass
+ABW,Aruba,2018,73.47426750169123,Tier_2_Good,2,True,True,False
+ABW,Aruba,2019,74.3812004692611,Tier_2_Good,2,True,True,False
+ABW,Aruba,2020,70.1227377622208,Tier_2_Good,2,True,True,False
+ABW,Aruba,2021,73.21324025438678,Tier_2_Good,2,True,True,False
+ABW,Aruba,2022,74.17884330725404,Tier_2_Good,2,True,True,False
+AFE,Africa Eastern and Southern,2018,29.143426577641712,Tier_4_Low,0,False,False,False
+AFE,Africa Eastern and Southern,2019,29.709019545967283,Tier_4_Low,0,False,False,False
+AFE,Africa Eastern and Southern,2020,29.430209576257035,Tier_4_Low,0,False,False,False
+AFE,Africa Eastern and Southern,2021,30.659725565078396,Tier_4_Low,0,False,False,False
+AFE,Africa Eastern and Southern,2022,31.76620869505478,Tier_4_Low,0,False,False,False
+AFG,Afghanistan,2018,13.105875092443348,Tier_4_Low,0,False,False,False
+AFG,Afghanistan,2019,13.18983434085985,Tier_4_Low,0,False,False,False
+AFG,Afghanistan,2020,12.728720263727514,Tier_4_Low,0,False,False,False
+AFG,Afghanistan,2021,10.071238831830064,Tier_4_Low,0,False,False,False
+AFG,Afghanistan,2022,8.612585403568682,Tier_4_Low,0,False,False,False
+AFW,Africa Western and Central,2018,34.594934999130466,Tier_4_Low,0,False,False,False
+AFW,Africa Western and Central,2019,36.73928325025665,Tier_4_Low,0,False,False,False
+AFW,Africa Western and Central,2020,37.29696664779626,Tier_4_Low,0,False,False,False
+AFW,Africa Western and Central,2021,38.877081597936446,Tier_4_Low,0,False,False,False
+AFW,Africa Western and Central,2022,39.96036840509939,Tier_4_Low,0,False,False,False
+AGO,Angola,2018,42.55667870722893,Tier_4_Low,0,False,False,False
+AGO,Angola,2019,43.218896762120316,Tier_4_Low,0,False,False,False
+AGO,Angola,2020,41.44029522429759,Tier_4_Low,0,False,False,False
+AGO,Angola,2021,43.32238618781367,Tier_4_Low,0,False,False,False
+AGO,Angola,2022,46.105198758917155,Tier_4_Low,0,False,False,False
+ALB,Albania,2018,53.50487978818364,,1,False,True,False
+ALB,Albania,2019,55.02403669162434,Tier_2_Good,2,True,True,False
+ALB,Albania,2020,55.987402968797454,Tier_2_Good,2,True,True,False
+ALB,Albania,2021,59.194318138620105,Tier_2_Good,2,True,True,False
+ALB,Albania,2022,61.264907640843774,Tier_2_Good,2,True,True,False
+AND,Andorra,2018,82.24791890938046,Tier_2_Good,2,True,True,False
+AND,Andorra,2019,81.90269070008193,Tier_2_Good,2,True,True,False
+AND,Andorra,2020,81.86051587593737,Tier_2_Good,2,True,True,False
+AND,Andorra,2021,82.52942904779101,Tier_2_Good,2,True,True,False
+AND,Andorra,2022,83.04386017728025,Tier_2_Good,2,True,True,False
+ARB,Arab World,2018,45.17203164630303,,1,False,True,False
+ARB,Arab World,2019,47.19710527604087,,1,False,True,False
+ARB,Arab World,2020,47.7094941220719,,1,False,True,False
+ARB,Arab World,2021,50.1828513118632,,1,False,True,False
+ARB,Arab World,2022,52.84097236403385,,1,False,True,False
+ARE,United Arab Emirates,2018,82.87099155836626,Tier_2_Good,2,True,True,False
+ARE,United Arab Emirates,2019,83.5451897741178,Tier_2_Good,2,True,True,False
+ARE,United Arab Emirates,2020,83.11134204685331,Tier_2_Good,2,True,True,False
+ARE,United Arab Emirates,2021,82.89177789558565,Tier_2_Good,2,True,True,False
+ARE,United Arab Emirates,2022,84.0938346834978,Tier_2_Good,2,True,True,False
+ARG,Argentina,2018,68.4395450800302,Tier_2_Good,2,True,True,False
+ARG,Argentina,2019,68.15432299325047,Tier_2_Good,2,True,True,False
+ARG,Argentina,2020,67.81371084976357,,1,False,True,False
+ARG,Argentina,2021,70.01384370719467,Tier_2_Good,2,True,True,False
+ARG,Argentina,2022,72.16512984672838,Tier_2_Good,2,True,True,False
+ARM,Armenia,2018,53.85904566776561,Tier_3_Moderate,1,True,False,False
+ARM,Armenia,2019,53.779142875375086,Tier_4_Low,0,False,False,False
+ARM,Armenia,2020,56.24587457159194,Tier_3_Moderate,1,True,False,False
+ARM,Armenia,2021,57.577487496716095,Tier_3_Moderate,1,True,False,False
+ARM,Armenia,2022,58.65949796673968,Tier_2_Good,2,True,True,False
+ASM,American Samoa,2018,63.34510817030217,,1,False,True,False
+ASM,American Samoa,2019,66.11764191219449,Tier_2_Good,2,True,True,False
+ASM,American Samoa,2020,68.95746198534734,,1,False,True,False
+ASM,American Samoa,2021,69.18708081134334,,1,False,True,False
+ASM,American Samoa,2022,70.27134689441827,,1,False,True,False
+ATG,Antigua and Barbuda,2018,58.13859807308334,,1,False,True,False
+ATG,Antigua and Barbuda,2019,58.414036936412884,,1,False,True,False
+ATG,Antigua and Barbuda,2020,56.895140004989905,,1,False,True,False
+ATG,Antigua and Barbuda,2021,58.03641345502573,,1,False,True,False
+ATG,Antigua and Barbuda,2022,59.77004451800605,,1,False,True,False
+AUS,Australia,2018,83.67655397172135,Tier_2_Good,2,True,True,False
+AUS,Australia,2019,84.65393425508461,Tier_2_Good,2,True,True,False
+AUS,Australia,2020,84.4996451716486,Tier_2_Good,2,True,True,False
+AUS,Australia,2021,86.09227879907337,Tier_2_Good,2,True,True,False
+AUS,Australia,2022,86.50314190201352,Tier_2_Good,2,True,True,False
+AUT,Austria,2018,78.14895525561492,Tier_2_Good,2,True,True,False
+AUT,Austria,2019,78.32807391176723,Tier_2_Good,2,True,True,False
+AUT,Austria,2020,78.04457378554392,Tier_2_Good,2,True,True,False
+AUT,Austria,2021,80.09675502204288,Tier_2_Good,2,True,True,False
+AUT,Austria,2022,80.55704198297738,Tier_2_Good,2,True,True,False
+AZE,Azerbaijan,2018,57.01143349373932,Tier_3_Moderate,1,True,False,False
+AZE,Azerbaijan,2019,57.91111302931601,Tier_3_Moderate,1,True,False,False
+AZE,Azerbaijan,2020,58.58985210061221,Tier_3_Moderate,1,True,False,False
+AZE,Azerbaijan,2021,59.83642132249665,Tier_2_Good,2,True,True,False
+AZE,Azerbaijan,2022,62.41552623135165,Tier_2_Good,2,True,True,False
+BDI,Burundi,2018,10.989713663167116,Tier_4_Low,0,False,False,False
+BDI,Burundi,2019,11.520738752508448,Tier_4_Low,0,False,False,False
+BDI,Burundi,2020,11.859847243791371,Tier_4_Low,0,False,False,False
+BDI,Burundi,2021,12.685214978988732,Tier_4_Low,0,False,False,False
+BDI,Burundi,2022,13.874137568647068,Tier_4_Low,0,False,False,False
+BEL,Belgium,2018,80.48064740161709,Tier_2_Good,2,True,True,False
+BEL,Belgium,2019,81.08322808455556,Tier_2_Good,2,True,True,False
+BEL,Belgium,2020,81.19125346614473,Tier_2_Good,2,True,True,False
+BEL,Belgium,2021,82.4469681017349,Tier_2_Good,2,True,True,False
+BEL,Belgium,2022,82.99962890758691,Tier_2_Good,2,True,True,False
+BEN,Benin,2018,30.748910591426828,Tier_4_Low,0,False,False,False
+BEN,Benin,2019,31.430182476040663,Tier_4_Low,0,False,False,False
+BEN,Benin,2020,32.18249886583672,Tier_4_Low,0,False,False,False
+BEN,Benin,2021,34.68600054283872,Tier_4_Low,0,False,False,False
+BEN,Benin,2022,35.48142436628582,Tier_4_Low,0,False,False,False
+BFA,Burkina Faso,2018,20.879250817055333,Tier_4_Low,0,False,False,False
+BFA,Burkina Faso,2019,21.13547563180485,Tier_4_Low,0,False,False,False
+BFA,Burkina Faso,2020,22.103443935225734,Tier_4_Low,0,False,False,False
+BFA,Burkina Faso,2021,23.854483789585753,Tier_4_Low,0,False,False,False
+BFA,Burkina Faso,2022,25.329617112117823,Tier_4_Low,0,False,False,False
+BGD,Bangladesh,2018,28.94019861260043,Tier_4_Low,0,False,False,False
+BGD,Bangladesh,2019,31.070047743071097,Tier_4_Low,0,False,False,False
+BGD,Bangladesh,2020,33.11894218596598,Tier_4_Low,0,False,False,False
+BGD,Bangladesh,2021,34.934325452089624,Tier_4_Low,0,False,False,False
+BGD,Bangladesh,2022,36.560277792067915,Tier_4_Low,0,False,False,False
+BGR,Bulgaria,2018,59.907531989380686,,1,False,True,False
+BGR,Bulgaria,2019,61.511266282388895,,1,False,True,False
+BGR,Bulgaria,2020,62.12016845051649,Tier_2_Good,2,True,True,False
+BGR,Bulgaria,2021,64.67934015417661,Tier_2_Good,2,True,True,False
+BGR,Bulgaria,2022,66.61524820447394,Tier_2_Good,2,True,True,False
+BHR,Bahrain,2018,80.16466404983846,,1,False,True,False
+BHR,Bahrain,2019,80.71764804056893,,1,False,True,False
+BHR,Bahrain,2020,79.80589927506693,,1,False,True,False
+BHR,Bahrain,2021,80.53237496048527,,1,False,True,False
+BHR,Bahrain,2022,81.5178204460149,,1,False,True,False
+BHS,"Bahamas, The",2018,78.05994740485173,Tier_2_Good,2,True,True,False
+BHS,"Bahamas, The",2019,80.31043494198617,Tier_2_Good,2,True,True,False
+BHS,"Bahamas, The",2020,78.17583141921878,Tier_2_Good,2,True,True,False
+BHS,"Bahamas, The",2021,79.52520898726986,Tier_2_Good,2,True,True,False
+BHS,"Bahamas, The",2022,80.9679178024151,Tier_2_Good,2,True,True,False
+BIH,Bosnia and Herzegovina,2018,52.04995221628356,,1,False,True,False
+BIH,Bosnia and Herzegovina,2019,52.39550973445511,,1,False,True,False
+BIH,Bosnia and Herzegovina,2020,53.195881887269735,,1,False,True,False
+BIH,Bosnia and Herzegovina,2021,55.088439675155556,,1,False,True,False
+BIH,Bosnia and Herzegovina,2022,56.70641194502199,,1,False,True,False
+BLR,Belarus,2018,62.205228195459526,Tier_2_Good,2,True,True,False
+BLR,Belarus,2019,63.89259531680639,Tier_2_Good,2,True,True,False
+BLR,Belarus,2020,64.35732897023104,Tier_2_Good,2,True,True,False
+BLR,Belarus,2021,65.76670846091395,Tier_2_Good,2,True,True,False
+BLR,Belarus,2022,66.83523980054176,Tier_2_Good,2,True,True,False
+BLZ,Belize,2018,48.5924314047954,,1,False,True,False
+BLZ,Belize,2019,50.536403904673705,,1,False,True,False
+BLZ,Belize,2020,48.90277091994653,,1,False,True,False
+BLZ,Belize,2021,52.38886148396106,,1,False,True,False
+BLZ,Belize,2022,52.623446627426766,,1,False,True,False
+BMU,Bermuda,2018,92.67150864532528,Tier_2_Good,2,True,True,False
+BMU,Bermuda,2019,93.18386520663908,Tier_2_Good,2,True,True,False
+BMU,Bermuda,2020,92.71624666102963,Tier_2_Good,2,True,True,False
+BMU,Bermuda,2021,90.96520284923191,Tier_2_Good,2,True,True,False
+BMU,Bermuda,2022,92.07023386269829,Tier_2_Good,2,True,True,False
+BOL,Bolivia,2018,49.234738949688435,Tier_4_Low,0,False,False,False
+BOL,Bolivia,2019,50.86827979184589,Tier_4_Low,0,False,False,False
+BOL,Bolivia,2020,52.90983481165519,Tier_4_Low,0,False,False,False
+BOL,Bolivia,2021,56.105470874468914,Tier_4_Low,0,False,False,False
+BOL,Bolivia,2022,58.35517625459752,Tier_3_Moderate,1,True,False,False
+BRA,Brazil,2018,64.34825978936254,Tier_2_Good,2,True,True,False
+BRA,Brazil,2019,65.31602968208895,Tier_2_Good,2,True,True,False
+BRA,Brazil,2020,65.18121669256816,Tier_2_Good,2,True,True,False
+BRA,Brazil,2021,65.77708876390854,Tier_2_Good,2,True,True,False
+BRA,Brazil,2022,66.70157229126751,Tier_2_Good,2,True,True,False
+BRB,Barbados,2018,66.38204127366669,Tier_2_Good,2,True,True,False
+BRB,Barbados,2019,66.4728463972959,Tier_2_Good,2,True,True,False
+BRB,Barbados,2020,65.28673874004072,Tier_2_Good,2,True,True,False
+BRB,Barbados,2021,65.6626466388827,Tier_2_Good,2,True,True,False
+BRB,Barbados,2022,67.11803511110588,Tier_2_Good,2,True,True,False
+BRN,Brunei Darussalam,2018,77.79478757466902,Tier_2_Good,2,True,True,False
+BRN,Brunei Darussalam,2019,77.70775896548886,Tier_2_Good,2,True,True,False
+BRN,Brunei Darussalam,2020,77.40204817509397,Tier_2_Good,2,True,True,False
+BRN,Brunei Darussalam,2021,78.23715317270465,Tier_2_Good,2,True,True,False
+BRN,Brunei Darussalam,2022,79.22200005485033,Tier_2_Good,2,True,True,False
+BTN,Bhutan,2018,46.15350756170214,Tier_4_Low,0,False,False,False
+BTN,Bhutan,2019,50.25694596228182,Tier_4_Low,0,False,False,False
+BTN,Bhutan,2020,50.56147188090346,Tier_4_Low,0,False,False,False
+BTN,Bhutan,2021,53.94637168725227,Tier_4_Low,0,False,False,False
+BTN,Bhutan,2022,53.648420721009586,Tier_4_Low,0,False,False,False
+BWA,Botswana,2018,52.6387513667347,,1,False,True,False
+BWA,Botswana,2019,53.739193213757325,,1,False,True,False
+BWA,Botswana,2020,53.311874644409315,,1,False,True,False
+BWA,Botswana,2021,55.76195598323788,,1,False,True,False
+BWA,Botswana,2022,57.31662201809996,,1,False,True,False
+CAF,Central African Republic,2018,18.129238254696624,Tier_4_Low,0,False,False,False
+CAF,Central African Republic,2019,19.026589683885735,Tier_4_Low,0,False,False,False
+CAF,Central African Republic,2020,26.28463494272168,Tier_4_Low,0,False,False,False
+CAF,Central African Republic,2021,27.865489976896857,Tier_4_Low,0,False,False,False
+CAF,Central African Republic,2022,21.246331093056977,Tier_4_Low,0,False,False,False
+CAN,Canada,2018,82.50256359028154,Tier_2_Good,2,True,True,False
+CAN,Canada,2019,81.96157764578179,Tier_2_Good,2,True,True,False
+CAN,Canada,2020,81.40737188447957,Tier_2_Good,2,True,True,False
+CAN,Canada,2021,83.18890863783744,Tier_2_Good,2,True,True,False
+CAN,Canada,2022,83.86079247361512,Tier_2_Good,2,True,True,False
+CEB,Central Europe and the Baltics,2018,64.14238705461787,Tier_2_Good,2,True,True,False
+CEB,Central Europe and the Baltics,2019,65.87745284142434,Tier_2_Good,2,True,True,False
+CEB,Central Europe and the Baltics,2020,66.57890186728201,Tier_2_Good,2,True,True,False
+CEB,Central Europe and the Baltics,2021,67.23829595068922,Tier_2_Good,2,True,True,False
+CEB,Central Europe and the Baltics,2022,67.87080621736483,Tier_2_Good,2,True,True,False
+CHE,Switzerland,2018,86.11797594287809,Tier_2_Good,2,True,True,False
+CHE,Switzerland,2019,86.7271944194417,Tier_2_Good,2,True,True,False
+CHE,Switzerland,2020,87.28556976877046,Tier_2_Good,2,True,True,False
+CHE,Switzerland,2021,88.5829076940495,Tier_2_Good,2,True,True,False
+CHE,Switzerland,2022,89.1362434902866,Tier_2_Good,2,True,True,False
+CHI,Channel Islands,2018,63.89538425672831,,1,False,True,False
+CHI,Channel Islands,2019,64.78102901357818,,1,False,True,False
+CHI,Channel Islands,2020,68.53807465188429,,1,False,True,False
+CHI,Channel Islands,2021,74.18963392003,,1,False,True,False
+CHI,Channel Islands,2022,73.63148642114362,,1,False,True,False
+CHL,Chile,2018,71.7237254016783,Tier_2_Good,2,True,True,False
+CHL,Chile,2019,71.57300986077797,Tier_2_Good,2,True,True,False
+CHL,Chile,2020,70.48496447962088,,1,False,True,False
+CHL,Chile,2021,72.67918066015861,,1,False,True,False
+CHL,Chile,2022,73.65667670136314,Tier_2_Good,2,True,True,False
+CHN,China,2018,59.89669614682056,,1,False,True,False
+CHN,China,2019,60.120974748256586,,1,False,True,False
+CHN,China,2020,61.811221823718114,Tier_2_Good,2,True,True,False
+CHN,China,2021,64.20856260640929,Tier_2_Good,2,True,True,False
+CHN,China,2022,65.12319605669751,Tier_2_Good,2,True,True,False
+CIV,Côte d'Ivoire,2018,38.43489300525852,Tier_4_Low,0,False,False,False
+CIV,Côte d'Ivoire,2019,38.317185061756255,Tier_4_Low,0,False,False,False
+CIV,Côte d'Ivoire,2020,38.43994101893154,Tier_4_Low,0,False,False,False
+CIV,Côte d'Ivoire,2021,39.43629213487656,Tier_4_Low,0,False,False,False
+CIV,Côte d'Ivoire,2022,40.346963832505544,Tier_4_Low,0,False,False,False
+CMR,Cameroon,2018,35.377657049937476,Tier_4_Low,0,False,False,False
+CMR,Cameroon,2019,37.00818420245489,Tier_4_Low,0,False,False,False
+CMR,Cameroon,2020,37.068845582315994,Tier_4_Low,0,False,False,False
+CMR,Cameroon,2021,37.75081224827379,Tier_4_Low,0,False,False,False
+CMR,Cameroon,2022,38.07795132216261,Tier_4_Low,0,False,False,False
+COD,Democratic Republic of the Congo,2018,19.98218392234481,Tier_4_Low,0,False,False,False
+COD,Democratic Republic of the Congo,2019,20.261983093828704,Tier_4_Low,0,False,False,False
+COD,Democratic Republic of the Congo,2020,20.634237676824046,Tier_4_Low,0,False,False,False
+COD,Democratic Republic of the Congo,2021,22.298295930173794,Tier_4_Low,0,False,False,False
+COD,Democratic Republic of the Congo,2022,24.02614948915749,Tier_4_Low,0,False,False,False
+COG,Congo,2018,36.18800703674242,Tier_4_Low,0,False,False,False
+COG,Congo,2019,37.2153231895461,Tier_4_Low,0,False,False,False
+COG,Congo,2020,37.580021443551956,Tier_4_Low,0,False,False,False
+COG,Congo,2021,40.36562988066901,Tier_4_Low,0,False,False,False
+COG,Congo,2022,43.839739214437834,Tier_4_Low,0,False,False,False
+COL,Colombia,2018,58.301687870728514,,1,False,True,False
+COL,Colombia,2019,58.41134682749839,,1,False,True,False
+COL,Colombia,2020,58.34214711827687,Tier_2_Good,2,True,True,False
+COL,Colombia,2021,60.160024687273555,Tier_2_Good,2,True,True,False
+COL,Colombia,2022,60.4539207479891,Tier_2_Good,2,True,True,False
+COM,Comoros,2018,31.08189868103501,Tier_4_Low,0,False,False,False
+COM,Comoros,2019,25.411370501048943,Tier_4_Low,0,False,False,False
+COM,Comoros,2020,27.25514498229852,Tier_4_Low,0,False,False,False
+COM,Comoros,2021,29.967943440446994,Tier_4_Low,0,False,False,False
+COM,Comoros,2022,30.026379107759563,Tier_4_Low,0,False,False,False
+CPV,Cabo Verde,2018,51.855235644325994,Tier_4_Low,0,False,False,False
+CPV,Cabo Verde,2019,53.34406288342412,Tier_4_Low,0,False,False,False
+CPV,Cabo Verde,2020,53.40102831937176,Tier_4_Low,0,False,False,False
+CPV,Cabo Verde,2021,54.776654343934226,Tier_4_Low,0,False,False,False
+CPV,Cabo Verde,2022,56.93245107140872,Tier_3_Moderate,1,True,False,False
+CRI,Costa Rica,2018,64.70964382184009,Tier_2_Good,2,True,True,False
+CRI,Costa Rica,2019,67.48182674101187,Tier_2_Good,2,True,True,False
+CRI,Costa Rica,2020,66.55735533160852,Tier_2_Good,2,True,True,False
+CRI,Costa Rica,2021,67.83870550500409,Tier_2_Good,2,True,True,False
+CRI,Costa Rica,2022,68.27568374319348,Tier_2_Good,2,True,True,False
+CSS,Caribbean small states,2018,59.23871934962989,,1,False,True,False
+CSS,Caribbean small states,2019,60.35057380536076,,1,False,True,False
+CSS,Caribbean small states,2020,59.458857734793234,,1,False,True,False
+CSS,Caribbean small states,2021,61.5494763872579,,1,False,True,False
+CSS,Caribbean small states,2022,63.945317628701666,,1,False,True,False
+CUB,Cuba,2018,58.95840573534572,,1,False,True,False
+CUB,Cuba,2019,60.60378958403287,,1,False,True,False
+CUB,Cuba,2020,61.3949250737914,,1,False,True,False
+CUB,Cuba,2021,61.071120472773465,,1,False,True,False
+CUB,Cuba,2022,60.011695960174556,,1,False,True,False
+CUW,Curacao,2018,72.35902527871767,Tier_2_Good,2,True,True,False
+CUW,Curacao,2019,73.14202710890473,Tier_2_Good,2,True,True,False
+CUW,Curacao,2020,71.99175190806011,,1,False,True,False
+CUW,Curacao,2021,73.2293048919858,,1,False,True,False
+CUW,Curacao,2022,75.41164564525019,Tier_2_Good,2,True,True,False
+CYM,Cayman Islands,2018,88.89052084326572,Tier_2_Good,2,True,True,False
+CYM,Cayman Islands,2019,89.32978407610364,Tier_2_Good,2,True,True,False
+CYM,Cayman Islands,2020,89.26391687110956,Tier_2_Good,2,True,True,False
+CYM,Cayman Islands,2021,91.42579399246058,Tier_2_Good,2,True,True,False
+CYM,Cayman Islands,2022,91.17471493177561,Tier_2_Good,2,True,True,False
+CYP,Cyprus,2018,73.37866270982634,Tier_2_Good,2,True,True,False
+CYP,Cyprus,2019,74.03278188026313,Tier_2_Good,2,True,True,False
+CYP,Cyprus,2020,74.77631102448355,Tier_2_Good,2,True,True,False
+CYP,Cyprus,2021,75.78340030490922,Tier_2_Good,2,True,True,False
+CYP,Cyprus,2022,75.99117730988596,Tier_2_Good,2,True,True,False
+CZE,Czechia,2018,70.81111520832218,Tier_2_Good,2,True,True,False
+CZE,Czechia,2019,71.16108843035319,Tier_2_Good,2,True,True,False
+CZE,Czechia,2020,71.03059468674343,Tier_2_Good,2,True,True,False
+CZE,Czechia,2021,72.52112006658476,Tier_2_Good,2,True,True,False
+CZE,Czechia,2022,73.40919156201835,Tier_2_Good,2,True,True,False
+DEU,Germany,2018,80.176338660315,Tier_2_Good,2,True,True,False
+DEU,Germany,2019,80.57082102623565,Tier_2_Good,2,True,True,False
+DEU,Germany,2020,80.81150002230645,Tier_2_Good,2,True,True,False
+DEU,Germany,2021,81.94170910226154,Tier_2_Good,2,True,True,False
+DEU,Germany,2022,82.10608760092835,Tier_2_Good,2,True,True,False
+DJI,Djibouti,2018,44.196446914040834,Tier_4_Low,0,False,False,False
+DJI,Djibouti,2019,45.03804216752722,Tier_4_Low,0,False,False,False
+DJI,Djibouti,2020,45.44057020182792,Tier_4_Low,0,False,False,False
+DJI,Djibouti,2021,46.41622798500404,Tier_4_Low,0,False,False,False
+DJI,Djibouti,2022,47.61160621009668,Tier_4_Low,0,False,False,False
+DMA,Dominica,2018,59.56473670270252,,1,False,True,False
+DMA,Dominica,2019,61.749006617825096,Tier_2_Good,2,True,True,False
+DMA,Dominica,2020,60.904042002396395,,1,False,True,False
+DMA,Dominica,2021,62.52806243146388,Tier_2_Good,2,True,True,False
+DMA,Dominica,2022,63.48491159867389,,1,False,True,False
+DNK,Denmark,2018,86.11569504410193,Tier_2_Good,2,True,True,False
+DNK,Denmark,2019,86.36644958444968,Tier_2_Good,2,True,True,False
+DNK,Denmark,2020,86.04067375566797,Tier_2_Good,2,True,True,False
+DNK,Denmark,2021,87.56771690299249,Tier_2_Good,2,True,True,False
+DNK,Denmark,2022,87.52968930017164,Tier_2_Good,2,True,True,False
+DOM,Dominican Republic,2018,61.30019839830679,Tier_2_Good,2,True,True,False
+DOM,Dominican Republic,2019,63.1337721264493,Tier_2_Good,2,True,True,False
+DOM,Dominican Republic,2020,61.98632533226756,,1,False,True,False
+DOM,Dominican Republic,2021,64.53964078437552,Tier_2_Good,2,True,True,False
+DOM,Dominican Republic,2022,64.46259229809505,Tier_2_Good,2,True,True,False
+DZA,Algeria,2018,45.649714878326364,Tier_4_Low,0,False,False,False
+DZA,Algeria,2019,47.43905407213722,Tier_4_Low,0,False,False,False
+DZA,Algeria,2020,48.295718820827844,Tier_4_Low,0,False,False,False
+DZA,Algeria,2021,51.21324334967143,Tier_4_Low,0,False,False,False
+DZA,Algeria,2022,53.04086001990415,Tier_4_Low,0,False,False,False
+EAP,East Asia & Pacific (excluding high income),2018,55.69565526410682,,1,False,True,False
+EAP,East Asia & Pacific (excluding high income),2019,57.51876285241841,,1,False,True,False
+EAP,East Asia & Pacific (excluding high income),2020,59.684602727304785,Tier_2_Good,2,True,True,False
+EAP,East Asia & Pacific (excluding high income),2021,62.463229070485156,Tier_2_Good,2,True,True,False
+EAP,East Asia & Pacific (excluding high income),2022,63.885171120446394,Tier_2_Good,2,True,True,False
+EAR,Early-demographic dividend,2018,45.311457654009125,Tier_4_Low,0,False,False,False
+EAR,Early-demographic dividend,2019,43.00778833775329,Tier_4_Low,0,False,False,False
+EAR,Early-demographic dividend,2020,45.04928166751175,Tier_4_Low,0,False,False,False
+EAR,Early-demographic dividend,2021,47.83165252055679,Tier_4_Low,0,False,False,False
+EAR,Early-demographic dividend,2022,48.31805958128647,Tier_4_Low,0,False,False,False
+EAS,East Asia & Pacific,2018,59.74385290597775,,1,False,True,False
+EAS,East Asia & Pacific,2019,61.35065753000458,,1,False,True,False
+EAS,East Asia & Pacific,2020,63.063308574100304,Tier_2_Good,2,True,True,False
+EAS,East Asia & Pacific,2021,65.484072473464,Tier_2_Good,2,True,True,False
+EAS,East Asia & Pacific,2022,66.61675482517369,Tier_2_Good,2,True,True,False
+ECA,Europe & Central Asia (excluding high income),2018,55.19799573261248,,1,False,True,False
+ECA,Europe & Central Asia (excluding high income),2019,56.45460416820005,,1,False,True,False
+ECA,Europe & Central Asia (excluding high income),2020,57.07610412559082,,1,False,True,False
+ECA,Europe & Central Asia (excluding high income),2021,59.274469358059676,,1,False,True,False
+ECA,Europe & Central Asia (excluding high income),2022,60.63967689889634,,1,False,True,False
+ECS,Europe & Central Asia,2018,70.82555199860018,Tier_2_Good,2,True,True,False
+ECS,Europe & Central Asia,2019,71.5056396938047,Tier_2_Good,2,True,True,False
+ECS,Europe & Central Asia,2020,71.92296010284574,Tier_2_Good,2,True,True,False
+ECS,Europe & Central Asia,2021,73.68225720794815,Tier_2_Good,2,True,True,False
+ECS,Europe & Central Asia,2022,74.48175487972934,Tier_2_Good,2,True,True,False
+ECU,Ecuador,2018,53.73099542617683,,1,False,True,False
+ECU,Ecuador,2019,54.09731032027214,,1,False,True,False
+ECU,Ecuador,2020,55.40479073694802,Tier_2_Good,2,True,True,False
+ECU,Ecuador,2021,56.51178734257887,Tier_2_Good,2,True,True,False
+ECU,Ecuador,2022,57.28338143416486,Tier_2_Good,2,True,True,False
+EGY,Egypt,2018,36.131184923131464,Tier_4_Low,0,False,False,False
+EGY,Egypt,2019,39.10915043562096,Tier_4_Low,0,False,False,False
+EGY,Egypt,2020,43.85702831375555,Tier_4_Low,0,False,False,False
+EGY,Egypt,2021,44.93202388084767,Tier_4_Low,0,False,False,False
+EGY,Egypt,2022,45.86990121837867,Tier_4_Low,0,False,False,False
+EMU,Euro area,2018,77.5060055228297,Tier_2_Good,2,True,True,False
+EMU,Euro area,2019,78.09564952667094,Tier_2_Good,2,True,True,False
+EMU,Euro area,2020,77.77377515448283,Tier_2_Good,2,True,True,False
+EMU,Euro area,2021,79.17180038992184,Tier_2_Good,2,True,True,False
+EMU,Euro area,2022,78.8664765926241,Tier_2_Good,2,True,True,False
+ERI,Eritrea,2018,46.24333196965637,,1,False,True,False
+ERI,Eritrea,2019,47.22776015373244,,1,False,True,False
+ERI,Eritrea,2020,47.42317717106637,,1,False,True,False
+ERI,Eritrea,2021,59.878035146026626,,1,False,True,False
+ERI,Eritrea,2022,58.88213237981494,,1,False,True,False
+ESP,Spain,2018,75.60985222042433,Tier_2_Good,2,True,True,False
+ESP,Spain,2019,76.87267517822556,Tier_2_Good,2,True,True,False
+ESP,Spain,2020,76.65638929220637,Tier_2_Good,2,True,True,False
+ESP,Spain,2021,77.8584085024318,Tier_2_Good,2,True,True,False
+ESP,Spain,2022,78.2589637061701,Tier_2_Good,2,True,True,False
+EST,Estonia,2018,73.1850951975439,Tier_2_Good,2,True,True,False
+EST,Estonia,2019,73.84128627321002,Tier_2_Good,2,True,True,False
+EST,Estonia,2020,73.5619970288545,Tier_2_Good,2,True,True,False
+EST,Estonia,2021,75.2177846607891,Tier_2_Good,2,True,True,False
+EST,Estonia,2022,75.91559709488106,Tier_2_Good,2,True,True,False
+ETH,Ethiopia,2018,20.56232585678395,Tier_4_Low,0,False,False,False
+ETH,Ethiopia,2019,20.962005279301543,Tier_4_Low,0,False,False,False
+ETH,Ethiopia,2020,21.01229157905193,Tier_4_Low,0,False,False,False
+ETH,Ethiopia,2021,21.57680390056952,Tier_4_Low,0,False,False,False
+ETH,Ethiopia,2022,22.762706202567827,Tier_4_Low,0,False,False,False
+EUU,European Union,2018,76.18590994958929,Tier_2_Good,2,True,True,False
+EUU,European Union,2019,76.50275693525353,Tier_2_Good,2,True,True,False
+EUU,European Union,2020,77.3229886208461,Tier_2_Good,2,True,True,False
+EUU,European Union,2021,78.74516142237404,Tier_2_Good,2,True,True,False
+EUU,European Union,2022,78.3907980577759,Tier_2_Good,2,True,True,False
+FCS,Fragile and conflict affected situations,2018,31.499281386245762,Tier_4_Low,0,False,False,False
+FCS,Fragile and conflict affected situations,2019,32.63431986524873,Tier_4_Low,0,False,False,False
+FCS,Fragile and conflict affected situations,2020,32.574832052643536,Tier_4_Low,0,False,False,False
+FCS,Fragile and conflict affected situations,2021,33.77971613098992,Tier_4_Low,0,False,False,False
+FCS,Fragile and conflict affected situations,2022,34.96241393674442,Tier_4_Low,0,False,False,False
+FIN,Finland,2018,79.1355080301532,Tier_2_Good,2,True,True,False
+FIN,Finland,2019,79.41661036865796,Tier_2_Good,2,True,True,False
+FIN,Finland,2020,80.12593755069047,Tier_2_Good,2,True,True,False
+FIN,Finland,2021,80.98722752478244,Tier_2_Good,2,True,True,False
+FIN,Finland,2022,81.15432135051753,Tier_2_Good,2,True,True,False
+FJI,Fiji,2018,50.25929335580147,,1,False,True,False
+FJI,Fiji,2019,51.41966430766054,,1,False,True,False
+FJI,Fiji,2020,50.99966201379838,Tier_4_Low,0,False,False,False
+FJI,Fiji,2021,51.42642271370813,Tier_4_Low,0,False,False,False
+FJI,Fiji,2022,53.57932060638389,,1,False,True,False
+FRA,France,2018,76.59204722558691,Tier_2_Good,2,True,True,False
+FRA,France,2019,76.96559351893515,Tier_2_Good,2,True,True,False
+FRA,France,2020,76.871457093561,Tier_2_Good,2,True,True,False
+FRA,France,2021,78.25798693123964,Tier_2_Good,2,True,True,False
+FRA,France,2022,77.98174778399822,Tier_2_Good,2,True,True,False
+FRO,Faroe Islands,2018,59.93993885679737,,1,False,True,False
+FRO,Faroe Islands,2019,56.673556876115285,,1,False,True,False
+FRO,Faroe Islands,2020,61.34470277417849,,1,False,True,False
+FRO,Faroe Islands,2021,74.73103612705523,,1,False,True,False
+FRO,Faroe Islands,2022,74.940855911841,,1,False,True,False
+FSM,Micronesia,2018,35.25998602513828,Tier_4_Low,0,False,False,False
+FSM,Micronesia,2019,36.70687343253391,Tier_4_Low,0,False,False,False
+FSM,Micronesia,2020,37.16902739927753,Tier_4_Low,0,False,False,False
+FSM,Micronesia,2021,38.10447821749261,Tier_4_Low,0,False,False,False
+FSM,Micronesia,2022,37.93101819507487,Tier_4_Low,0,False,False,False
+GAB,Gabon,2018,57.29363459636228,,1,False,True,False
+GAB,Gabon,2019,58.54230927103409,,1,False,True,False
+GAB,Gabon,2020,58.91520633387066,,1,False,True,False
+GAB,Gabon,2021,60.487705748153516,,1,False,True,False
+GAB,Gabon,2022,61.6589654551418,,1,False,True,False
+GBR,United Kingdom,2018,80.73928871498529,Tier_2_Good,2,True,True,False
+GBR,United Kingdom,2019,81.36656082967598,Tier_2_Good,2,True,True,False
+GBR,United Kingdom,2020,81.45386902527501,Tier_2_Good,2,True,True,False
+GBR,United Kingdom,2021,82.95062887403617,Tier_2_Good,2,True,True,False
+GBR,United Kingdom,2022,82.97167073044584,Tier_2_Good,2,True,True,False
+GEO,Georgia,2018,52.320072975871106,Tier_4_Low,0,False,False,False
+GEO,Georgia,2019,53.95690648880224,Tier_3_Moderate,1,True,False,False
+GEO,Georgia,2020,54.32080250769158,Tier_3_Moderate,1,True,False,False
+GEO,Georgia,2021,56.13320429372007,Tier_2_Good,2,True,True,False
+GEO,Georgia,2022,58.90060041465421,Tier_2_Good,2,True,True,False
+GHA,Ghana,2018,41.4465412002679,Tier_4_Low,0,False,False,False
+GHA,Ghana,2019,36.03684186949452,Tier_4_Low,0,False,False,False
+GHA,Ghana,2020,46.60424572813942,Tier_4_Low,0,False,False,False
+GHA,Ghana,2021,48.63748324625262,Tier_3_Moderate,1,True,False,False
+GHA,Ghana,2022,48.7069784454724,Tier_3_Moderate,1,True,False,False
+GIB,Gibraltar,2018,85.53261767697512,Tier_2_Good,2,True,True,False
+GIB,Gibraltar,2019,88.00180564955859,Tier_2_Good,2,True,True,False
+GIB,Gibraltar,2020,87.29121497143146,Tier_2_Good,2,True,True,False
+GIB,Gibraltar,2021,87.30068551322636,Tier_2_Good,2,True,True,False
+GIB,Gibraltar,2022,90.28437731544675,Tier_2_Good,2,True,True,False
+GIN,Guinea,2018,23.681054980493,Tier_4_Low,0,False,False,False
+GIN,Guinea,2019,24.93022509235981,Tier_4_Low,0,False,False,False
+GIN,Guinea,2020,25.829107843810508,Tier_4_Low,0,False,False,False
+GIN,Guinea,2021,27.503503080774955,Tier_4_Low,0,False,False,False
+GIN,Guinea,2022,29.327355735611828,Tier_4_Low,0,False,False,False
+GMB,Gambia,2018,28.10223417403533,Tier_4_Low,0,False,False,False
+GMB,Gambia,2019,29.401916177795233,Tier_4_Low,0,False,False,False
+GMB,Gambia,2020,30.66670136377445,Tier_4_Low,0,False,False,False
+GMB,Gambia,2021,32.77781628778322,Tier_4_Low,0,False,False,False
+GMB,Gambia,2022,35.18692717689686,Tier_4_Low,0,False,False,False
+GNB,Guinea-Bissau,2018,24.044045929258296,Tier_4_Low,0,False,False,False
+GNB,Guinea-Bissau,2019,25.122236836279544,Tier_4_Low,0,False,False,False
+GNB,Guinea-Bissau,2020,26.16224861027696,Tier_4_Low,0,False,False,False
+GNB,Guinea-Bissau,2021,27.75385485507762,Tier_4_Low,0,False,False,False
+GNB,Guinea-Bissau,2022,29.17449042654711,Tier_4_Low,0,False,False,False
+GNQ,Equatorial Guinea,2018,48.064361172298646,,1,False,True,False
+GNQ,Equatorial Guinea,2019,52.39924240330209,,1,False,True,False
+GNQ,Equatorial Guinea,2020,52.61521153657031,,1,False,True,False
+GNQ,Equatorial Guinea,2021,54.480522676743426,,1,False,True,False
+GNQ,Equatorial Guinea,2022,56.30085663150944,,1,False,True,False
+GRC,Greece,2018,67.37974461225467,,1,False,True,False
+GRC,Greece,2019,68.34632634969623,,1,False,True,False
+GRC,Greece,2020,68.27582097147936,,1,False,True,False
+GRC,Greece,2021,69.44855502514062,,1,False,True,False
+GRC,Greece,2022,71.17065004070267,,1,False,True,False
+GRD,Grenada,2018,52.46047865826731,,1,False,True,False
+GRD,Grenada,2019,53.955102501570636,,1,False,True,False
+GRD,Grenada,2020,49.228806744650015,,1,False,True,False
+GRD,Grenada,2021,49.829089462171424,,1,False,True,False
+GRD,Grenada,2022,49.608011152377294,,1,False,True,False
+GRL,Greenland,2018,83.4040270821557,Tier_2_Good,2,True,True,False
+GRL,Greenland,2019,84.43176475464318,Tier_2_Good,2,True,True,False
+GRL,Greenland,2020,85.05294953115316,Tier_2_Good,2,True,True,False
+GRL,Greenland,2021,84.96299396788496,Tier_2_Good,2,True,True,False
+GRL,Greenland,2022,85.02246691061384,Tier_2_Good,2,True,True,False
+GTM,Guatemala,2018,43.10733061654503,Tier_4_Low,0,False,False,False
+GTM,Guatemala,2019,44.08170697776238,Tier_4_Low,0,False,False,False
+GTM,Guatemala,2020,44.97955157932961,Tier_4_Low,0,False,False,False
+GTM,Guatemala,2021,47.15611510711157,Tier_4_Low,0,False,False,False
+GTM,Guatemala,2022,48.534921803581554,,1,False,True,False
+GUM,Guam,2018,81.15672398333356,Tier_2_Good,2,True,True,False
+GUM,Guam,2019,81.16870489798978,Tier_2_Good,2,True,True,False
+GUM,Guam,2020,80.85577826995271,Tier_2_Good,2,True,True,False
+GUM,Guam,2021,81.06758185485495,Tier_2_Good,2,True,True,False
+GUM,Guam,2022,82.5166879797216,Tier_2_Good,2,True,True,False
+GUY,Guyana,2018,43.3399916967817,,1,False,True,False
+GUY,Guyana,2019,45.11094407124637,,1,False,True,False
+GUY,Guyana,2020,48.050642134466884,,1,False,True,False
+GUY,Guyana,2021,51.711508406015646,,1,False,True,False
+GUY,Guyana,2022,56.67232462134743,,1,False,True,False
+HKG,"Hong Kong SAR, China",2018,84.47723725132789,Tier_2_Good,2,True,True,False
+HKG,"Hong Kong SAR, China",2019,84.787443580412,Tier_2_Good,2,True,True,False
+HKG,"Hong Kong SAR, China",2020,84.53919877003102,Tier_2_Good,2,True,True,False
+HKG,"Hong Kong SAR, China",2021,85.41661704037607,Tier_2_Good,2,True,True,False
+HKG,"Hong Kong SAR, China",2022,85.8609760530597,Tier_2_Good,2,True,True,False
+HND,Honduras,2018,39.08179025012456,Tier_4_Low,0,False,False,False
+HND,Honduras,2019,39.48160100367261,Tier_4_Low,0,False,False,False
+HND,Honduras,2020,40.775925672666894,Tier_4_Low,0,False,False,False
+HND,Honduras,2021,43.91269673442598,Tier_4_Low,0,False,False,False
+HND,Honduras,2022,45.44435973382332,Tier_4_Low,0,False,False,False
+HPC,Heavily indebted poor countries (HIPC),2018,28.273372184029043,Tier_4_Low,0,False,False,False
+HPC,Heavily indebted poor countries (HIPC),2019,30.404728835901857,Tier_4_Low,0,False,False,False
+HPC,Heavily indebted poor countries (HIPC),2020,28.941573392372135,Tier_4_Low,0,False,False,False
+HPC,Heavily indebted poor countries (HIPC),2021,29.948090858189975,Tier_4_Low,0,False,False,False
+HPC,Heavily indebted poor countries (HIPC),2022,33.39740365614693,Tier_4_Low,0,False,False,False
+HRV,Croatia,2018,62.53612005438838,,1,False,True,False
+HRV,Croatia,2019,63.82858822114348,,1,False,True,False
+HRV,Croatia,2020,63.27979593088847,,1,False,True,False
+HRV,Croatia,2021,65.48749063023025,,1,False,True,False
+HRV,Croatia,2022,66.40954304269822,,1,False,True,False
+HTI,Haiti,2018,35.28821292882459,Tier_4_Low,0,False,False,False
+HTI,Haiti,2019,35.79916405371372,Tier_4_Low,0,False,False,False
+HTI,Haiti,2020,36.42311997536284,Tier_4_Low,0,False,False,False
+HTI,Haiti,2021,39.328026618777294,Tier_4_Low,0,False,False,False
+HTI,Haiti,2022,40.53905708183198,Tier_4_Low,0,False,False,False
+HUN,Hungary,2018,66.55502025093249,Tier_2_Good,2,True,True,False
+HUN,Hungary,2019,68.12113236539048,Tier_2_Good,2,True,True,False
+HUN,Hungary,2020,68.98997611933162,Tier_2_Good,2,True,True,False
+HUN,Hungary,2021,71.04106822528573,Tier_2_Good,2,True,True,False
+HUN,Hungary,2022,71.36599901805435,Tier_2_Good,2,True,True,False
+IBT,IDA & IBRD total,2018,45.226840047926935,,1,False,True,False
+IBT,IDA & IBRD total,2019,46.82636443183218,,1,False,True,False
+IBT,IDA & IBRD total,2020,48.310369719120075,Tier_4_Low,0,False,False,False
+IBT,IDA & IBRD total,2021,50.57860376740737,,1,False,True,False
+IBT,IDA & IBRD total,2022,52.09902902145958,,1,False,True,False
+IDB,IDA blend,2018,32.15413644299024,Tier_4_Low,0,False,False,False
+IDB,IDA blend,2019,33.88523100727631,Tier_4_Low,0,False,False,False
+IDB,IDA blend,2020,33.97792295582851,Tier_4_Low,0,False,False,False
+IDB,IDA blend,2021,35.766931630056284,Tier_4_Low,0,False,False,False
+IDB,IDA blend,2022,37.32674660161341,Tier_4_Low,0,False,False,False
+IDN,Indonesia,2018,43.92519149837928,Tier_4_Low,0,False,False,False
+IDN,Indonesia,2019,46.617302758221456,Tier_4_Low,0,False,False,False
+IDN,Indonesia,2020,47.80066337521819,Tier_4_Low,0,False,False,False
+IDN,Indonesia,2021,50.62253829556142,Tier_4_Low,0,False,False,False
+IDN,Indonesia,2022,52.648596071989914,Tier_4_Low,0,False,False,False
+IDX,IDA only,2018,25.82400620925755,Tier_4_Low,0,False,False,False
+IDX,IDA only,2019,26.612619171277377,Tier_4_Low,0,False,False,False
+IDX,IDA only,2020,27.349340286603418,Tier_4_Low,0,False,False,False
+IDX,IDA only,2021,28.51056148277112,Tier_4_Low,0,False,False,False
+IDX,IDA only,2022,29.659888720041774,Tier_4_Low,0,False,False,False
+IMN,Isle of Man,2018,77.40130613240954,Tier_2_Good,2,True,True,False
+IMN,Isle of Man,2019,72.74661152890094,,1,False,True,False
+IMN,Isle of Man,2020,76.10375538531603,Tier_2_Good,2,True,True,False
+IMN,Isle of Man,2021,81.1826405505325,Tier_2_Good,2,True,True,False
+IMN,Isle of Man,2022,81.12985226057458,Tier_2_Good,2,True,True,False
+IND,India,2018,26.480442152615485,Tier_4_Low,0,False,False,False
+IND,India,2019,29.33118044375642,Tier_4_Low,0,False,False,False
+IND,India,2020,32.38764790503484,Tier_4_Low,0,False,False,False
+IND,India,2021,35.295990473056385,Tier_4_Low,0,False,False,False
+IND,India,2022,37.8291569335979,Tier_4_Low,0,False,False,False
+IRL,Ireland,2018,79.65077717511527,Tier_2_Good,2,True,True,False
+IRL,Ireland,2019,79.95785471759508,Tier_2_Good,2,True,True,False
+IRL,Ireland,2020,81.4825748559676,Tier_2_Good,2,True,True,False
+IRL,Ireland,2021,83.47558860651372,Tier_2_Good,2,True,True,False
+IRL,Ireland,2022,84.21993131557181,Tier_2_Good,2,True,True,False
+IRN,"Iran, Islamic Republic of",2018,52.900731474382866,Tier_4_Low,0,False,False,False
+IRN,"Iran, Islamic Republic of",2019,52.31874122138839,Tier_4_Low,0,False,False,False
+IRN,"Iran, Islamic Republic of",2020,51.3522726706519,Tier_4_Low,0,False,False,False
+IRN,"Iran, Islamic Republic of",2021,53.651470694537906,Tier_4_Low,0,False,False,False
+IRN,"Iran, Islamic Republic of",2022,54.912562257159394,Tier_4_Low,0,False,False,False
+IRQ,Iraq,2018,41.99154539773952,,1,False,True,False
+IRQ,Iraq,2019,45.23742745319583,,1,False,True,False
+IRQ,Iraq,2020,45.9652206757807,Tier_4_Low,0,False,False,False
+IRQ,Iraq,2021,49.43472288366544,Tier_4_Low,0,False,False,False
+IRQ,Iraq,2022,54.73346058236266,,1,False,True,False
+ISL,Iceland,2018,90.78534076146455,Tier_2_Good,2,True,True,False
+ISL,Iceland,2019,90.71161579306126,Tier_2_Good,2,True,True,False
+ISL,Iceland,2020,89.4544485121719,Tier_2_Good,2,True,True,False
+ISL,Iceland,2021,90.16795886582965,Tier_2_Good,2,True,True,False
+ISL,Iceland,2022,90.4476368756152,Tier_2_Good,2,True,True,False
+ISR,Israel,2018,80.8327135187276,Tier_2_Good,2,True,True,False
+ISR,Israel,2019,81.95045562125009,Tier_2_Good,2,True,True,False
+ISR,Israel,2020,82.61761099202721,Tier_2_Good,2,True,True,False
+ISR,Israel,2021,83.79392631834133,Tier_2_Good,2,True,True,False
+ISR,Israel,2022,84.96269483742307,Tier_2_Good,2,True,True,False
+ITA,Italy,2018,70.33373251722671,,1,False,True,False
+ITA,Italy,2019,68.61330781681171,,1,False,True,False
+ITA,Italy,2020,68.66625733872647,,1,False,True,False
+ITA,Italy,2021,70.82145729889871,,1,False,True,False
+ITA,Italy,2022,73.66685437031046,,1,False,True,False
+JAM,Jamaica,2018,55.29996742952511,Tier_2_Good,2,True,True,False
+JAM,Jamaica,2019,56.48901360662525,Tier_2_Good,2,True,True,False
+JAM,Jamaica,2020,56.866273755433646,Tier_2_Good,2,True,True,False
+JAM,Jamaica,2021,59.06013640165746,Tier_2_Good,2,True,True,False
+JAM,Jamaica,2022,61.38144933164657,Tier_2_Good,2,True,True,False
+JOR,Jordan,2018,52.648255058297416,Tier_4_Low,0,False,False,False
+JOR,Jordan,2019,53.97171246911636,Tier_4_Low,0,False,False,False
+JOR,Jordan,2020,56.132484028381434,Tier_4_Low,0,False,False,False
+JOR,Jordan,2021,58.342852816138524,Tier_4_Low,0,False,False,False
+JOR,Jordan,2022,59.820131529661154,Tier_4_Low,0,False,False,False
+JPN,Japan,2018,80.79181030057597,Tier_2_Good,2,True,True,False
+JPN,Japan,2019,82.04052969516015,Tier_2_Good,2,True,True,False
+JPN,Japan,2020,81.24743456886674,Tier_2_Good,2,True,True,False
+JPN,Japan,2021,79.63858627708807,Tier_2_Good,2,True,True,False
+JPN,Japan,2022,79.55742608395322,Tier_2_Good,2,True,True,False
+KAZ,Kazakhstan,2018,62.2388911188697,Tier_2_Good,2,True,True,False
+KAZ,Kazakhstan,2019,63.456961877842275,Tier_2_Good,2,True,True,False
+KAZ,Kazakhstan,2020,64.21314946652075,Tier_2_Good,2,True,True,False
+KAZ,Kazakhstan,2021,66.32831728139845,Tier_2_Good,2,True,True,False
+KAZ,Kazakhstan,2022,67.66363789822267,Tier_2_Good,2,True,True,False
+KEN,Kenya,2018,30.220239256531382,Tier_4_Low,0,False,False,False
+KEN,Kenya,2019,31.201934684554775,Tier_4_Low,0,False,False,False
+KEN,Kenya,2020,31.652135788109415,Tier_4_Low,0,False,False,False
+KEN,Kenya,2021,32.86545229314711,Tier_4_Low,0,False,False,False
+KEN,Kenya,2022,33.81102007108516,Tier_4_Low,0,False,False,False
+KGZ,Kyrgyzstan,2018,36.747336209905825,Tier_4_Low,0,False,False,False
+KGZ,Kyrgyzstan,2019,37.59306118540804,Tier_4_Low,0,False,False,False
+KGZ,Kyrgyzstan,2020,38.983293147610304,Tier_4_Low,0,False,False,False
+KGZ,Kyrgyzstan,2021,40.86262973759684,Tier_4_Low,0,False,False,False
+KGZ,Kyrgyzstan,2022,44.5367550385218,Tier_4_Low,0,False,False,False
+KHM,Cambodia,2018,45.475598181759906,Tier_4_Low,0,False,False,False
+KHM,Cambodia,2019,43.217655713543415,Tier_4_Low,0,False,False,False
+KHM,Cambodia,2020,43.95935197303663,Tier_4_Low,0,False,False,False
+KHM,Cambodia,2021,45.00283718847855,Tier_4_Low,0,False,False,False
+KHM,Cambodia,2022,47.24903663485135,Tier_4_Low,0,False,False,False
+KIR,Kiribati,2018,38.3549647446624,Tier_4_Low,0,False,False,False
+KIR,Kiribati,2019,39.81841353247155,Tier_4_Low,0,False,False,False
+KIR,Kiribati,2020,42.26044269266984,Tier_4_Low,0,False,False,False
+KIR,Kiribati,2021,48.51234634718148,Tier_4_Low,0,False,False,False
+KIR,Kiribati,2022,54.31045818708065,Tier_3_Moderate,1,True,False,False
+KNA,Saint Kitts and Nevis,2018,60.00620880981039,,1,False,True,False
+KNA,Saint Kitts and Nevis,2019,60.6722176757119,,1,False,True,False
+KNA,Saint Kitts and Nevis,2020,56.489216421276964,,1,False,True,False
+KNA,Saint Kitts and Nevis,2021,59.476686680540865,,1,False,True,False
+KNA,Saint Kitts and Nevis,2022,61.04621996002105,,1,False,True,False
+KOR,"Korea, Republic of",2018,79.8377968131584,Tier_2_Good,2,True,True,False
+KOR,"Korea, Republic of",2019,79.87556070823548,Tier_2_Good,2,True,True,False
+KOR,"Korea, Republic of",2020,79.76405925281608,Tier_2_Good,2,True,True,False
+KOR,"Korea, Republic of",2021,80.76994275656108,Tier_2_Good,2,True,True,False
+KOR,"Korea, Republic of",2022,80.66096004057935,Tier_2_Good,2,True,True,False
+KWT,Kuwait,2018,83.0367292638842,Tier_2_Good,2,True,True,False
+KWT,Kuwait,2019,83.2936984006947,Tier_2_Good,2,True,True,False
+KWT,Kuwait,2020,81.67836209572548,,1,False,True,False
+KWT,Kuwait,2021,83.40549651041472,,1,False,True,False
+KWT,Kuwait,2022,84.61032211003555,Tier_2_Good,2,True,True,False
+LAC,Latin America & Caribbean (excluding high income),2018,59.9359735579582,,1,False,True,False
+LAC,Latin America & Caribbean (excluding high income),2019,61.38376413128838,,1,False,True,False
+LAC,Latin America & Caribbean (excluding high income),2020,61.13296842608295,Tier_2_Good,2,True,True,False
+LAC,Latin America & Caribbean (excluding high income),2021,62.79351392565036,Tier_2_Good,2,True,True,False
+LAC,Latin America & Caribbean (excluding high income),2022,64.05807722424811,Tier_2_Good,2,True,True,False
+LAO,Laos,2018,36.72531029492733,Tier_4_Low,0,False,False,False
+LAO,Laos,2019,39.96096424091276,Tier_4_Low,0,False,False,False
+LAO,Laos,2020,41.906184332751586,Tier_4_Low,0,False,False,False
+LAO,Laos,2021,44.299212033182656,Tier_4_Low,0,False,False,False
+LAO,Laos,2022,44.11864365264938,Tier_4_Low,0,False,False,False
+LBN,Lebanon,2018,63.960354650982,,1,False,True,False
+LBN,Lebanon,2019,64.11400826660307,,1,False,True,False
+LBN,Lebanon,2020,60.96322733282723,,1,False,True,False
+LBN,Lebanon,2021,58.641561779124636,Tier_4_Low,0,False,False,False
+LBN,Lebanon,2022,57.265866016320246,Tier_4_Low,0,False,False,False
+LBR,Liberia,2018,26.77051845914923,Tier_4_Low,0,False,False,False
+LBR,Liberia,2019,27.247548554791717,Tier_4_Low,0,False,False,False
+LBR,Liberia,2020,27.61172396573173,Tier_4_Low,0,False,False,False
+LBR,Liberia,2021,29.32338003418527,Tier_4_Low,0,False,False,False
+LBR,Liberia,2022,31.18785788257633,Tier_4_Low,0,False,False,False
+LBY,Libya,2018,57.26598144213006,,1,False,True,False
+LBY,Libya,2019,62.77068448334043,,1,False,True,False
+LBY,Libya,2020,60.2886231286707,,1,False,True,False
+LBY,Libya,2021,59.96583504172853,Tier_4_Low,0,False,False,False
+LBY,Libya,2022,61.323497219973696,,1,False,True,False
+LCA,Saint Lucia,2018,52.903732984543524,,1,False,True,False
+LCA,Saint Lucia,2019,53.51268275372464,,1,False,True,False
+LCA,Saint Lucia,2020,49.88720358528783,,1,False,True,False
+LCA,Saint Lucia,2021,53.21432388731767,,1,False,True,False
+LCA,Saint Lucia,2022,56.32186021062912,,1,False,True,False
+LCN,Latin America & Caribbean,2018,60.43443690344607,,1,False,True,False
+LCN,Latin America & Caribbean,2019,61.589989098812175,,1,False,True,False
+LCN,Latin America & Caribbean,2020,61.51493993476125,,1,False,True,False
+LCN,Latin America & Caribbean,2021,63.170892064251554,Tier_2_Good,2,True,True,False
+LCN,Latin America & Caribbean,2022,64.40645632993878,Tier_2_Good,2,True,True,False
+LIE,Liechtenstein,2018,58.712290596148875,,1,False,True,False
+LIE,Liechtenstein,2019,76.31613073151817,,1,False,True,False
+LIE,Liechtenstein,2020,77.01764337721309,,1,False,True,False
+LIE,Liechtenstein,2021,78.40152098872169,,1,False,True,False
+LIE,Liechtenstein,2022,78.83179486940561,,1,False,True,False
+LKA,Sri Lanka,2018,32.84827437374964,Tier_4_Low,0,False,False,False
+LKA,Sri Lanka,2019,33.60405101430791,Tier_4_Low,0,False,False,False
+LKA,Sri Lanka,2020,33.890647128982096,Tier_4_Low,0,False,False,False
+LKA,Sri Lanka,2021,36.31031169155666,Tier_4_Low,0,False,False,False
+LKA,Sri Lanka,2022,36.326163438089054,Tier_4_Low,0,False,False,False
+LMY,Low & middle income,2018,44.2077244581047,Tier_4_Low,0,False,False,False
+LMY,Low & middle income,2019,45.68895324085778,Tier_4_Low,0,False,False,False
+LMY,Low & middle income,2020,47.329227632849545,Tier_4_Low,0,False,False,False
+LMY,Low & middle income,2021,49.794997874773266,,1,False,True,False
+LMY,Low & middle income,2022,51.433311917792025,,1,False,True,False
+LSO,Lesotho,2018,32.054538370787846,Tier_4_Low,0,False,False,False
+LSO,Lesotho,2019,32.26490809501516,Tier_4_Low,0,False,False,False
+LSO,Lesotho,2020,31.76350084396326,Tier_4_Low,0,False,False,False
+LSO,Lesotho,2021,32.92028559904842,Tier_4_Low,0,False,False,False
+LSO,Lesotho,2022,34.016024379241884,Tier_4_Low,0,False,False,False
+LTU,Lithuania,2018,68.64022196345941,Tier_2_Good,2,True,True,False
+LTU,Lithuania,2019,69.63354307242341,Tier_2_Good,2,True,True,False
+LTU,Lithuania,2020,70.33821673034758,Tier_2_Good,2,True,True,False
+LTU,Lithuania,2021,72.47961741136199,Tier_2_Good,2,True,True,False
+LTU,Lithuania,2022,73.2498004657208,Tier_2_Good,2,True,True,False
+LUX,Luxembourg,2018,89.9672425964374,Tier_2_Good,2,True,True,False
+LUX,Luxembourg,2019,89.9256738873143,Tier_2_Good,2,True,True,False
+LUX,Luxembourg,2020,90.68831622908414,Tier_2_Good,2,True,True,False
+LUX,Luxembourg,2021,91.8464409746364,Tier_2_Good,2,True,True,False
+LUX,Luxembourg,2022,91.32938933003587,Tier_2_Good,2,True,True,False
+LVA,Latvia,2018,68.94560956499076,Tier_2_Good,2,True,True,False
+LVA,Latvia,2019,69.83130186463026,Tier_2_Good,2,True,True,False
+LVA,Latvia,2020,70.74336071635119,Tier_2_Good,2,True,True,False
+LVA,Latvia,2021,72.07328769041172,Tier_2_Good,2,True,True,False
+LVA,Latvia,2022,72.42219499102481,Tier_2_Good,2,True,True,False
+MAC,"Macao SAR, China",2018,87.47343782674751,Tier_2_Good,2,True,True,False
+MAC,"Macao SAR, China",2019,88.00115811586781,Tier_2_Good,2,True,True,False
+MAC,"Macao SAR, China",2020,83.28913979483234,Tier_2_Good,2,True,True,False
+MAC,"Macao SAR, China",2021,84.55634905924082,Tier_2_Good,2,True,True,False
+MAC,"Macao SAR, China",2022,83.46627657068343,Tier_2_Good,2,True,True,False
+MAF,St. Martin (French part),2018,85.53261767697512,Tier_2_Good,2,True,True,False
+MAF,St. Martin (French part),2019,75.26850875328728,Tier_2_Good,2,True,True,False
+MAF,St. Martin (French part),2020,87.29121497143146,Tier_2_Good,2,True,True,False
+MAF,St. Martin (French part),2021,77.20547818463427,,1,False,True,False
+MAF,St. Martin (French part),2022,90.28437731544675,Tier_2_Good,2,True,True,False
+MAR,Morocco,2018,46.85604877959056,Tier_4_Low,0,False,False,False
+MAR,Morocco,2019,52.082155299290676,Tier_4_Low,0,False,False,False
+MAR,Morocco,2020,51.42074185565349,Tier_4_Low,0,False,False,False
+MAR,Morocco,2021,53.46673524278235,Tier_4_Low,0,False,False,False
+MAR,Morocco,2022,53.54801090035894,Tier_4_Low,0,False,False,False
+MCO,Monaco,2018,88.96502048535221,Tier_2_Good,2,True,True,False
+MCO,Monaco,2019,93.96007841848771,Tier_2_Good,2,True,True,False
+MCO,Monaco,2020,93.38069263528304,Tier_2_Good,2,True,True,False
+MCO,Monaco,2021,94.31595072337939,Tier_2_Good,2,True,True,False
+MCO,Monaco,2022,94.33961366657948,Tier_2_Good,2,True,True,False
+MDA,Moldova,2018,51.850252261846705,Tier_4_Low,0,False,False,False
+MDA,Moldova,2019,53.157627762895146,Tier_4_Low,0,False,False,False
+MDA,Moldova,2020,53.30305231503771,Tier_4_Low,0,False,False,False
+MDA,Moldova,2021,55.32946799026615,,1,False,True,False
+MDA,Moldova,2022,56.05683068816909,,1,False,True,False
+MDG,Madagascar,2018,19.48094823738037,Tier_4_Low,0,False,False,False
+MDG,Madagascar,2019,20.112452281598177,Tier_4_Low,0,False,False,False
+MDG,Madagascar,2020,19.828720059199092,Tier_4_Low,0,False,False,False
+MDG,Madagascar,2021,21.03878488589515,Tier_4_Low,0,False,False,False
+MDG,Madagascar,2022,22.56229883631502,Tier_4_Low,0,False,False,False
+MDV,Maldives,2018,55.389936816806106,,1,False,True,False
+MDV,Maldives,2019,57.49549137880946,,1,False,True,False
+MDV,Maldives,2020,54.22552589120236,,1,False,True,False
+MDV,Maldives,2021,57.39647965039116,,1,False,True,False
+MDV,Maldives,2022,59.25240769303362,,1,False,True,False
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",2018,42.796820138808826,,1,False,True,False
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",2019,43.783397856995016,,1,False,True,False
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",2020,44.115493415740204,Tier_4_Low,0,False,False,False
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",2021,46.02092243751782,,1,False,True,False
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",2022,47.8846390696917,,1,False,True,False
+MEX,Mexico,2018,58.292609687797395,,1,False,True,False
+MEX,Mexico,2019,62.155024250957254,,1,False,True,False
+MEX,Mexico,2020,61.23015827825158,,1,False,True,False
+MEX,Mexico,2021,63.69407547126383,,1,False,True,False
+MEX,Mexico,2022,65.39224558712462,,1,False,True,False
+MHL,Marshall Islands,2018,49.42310742984451,Tier_4_Low,0,False,False,False
+MHL,Marshall Islands,2019,51.90413947739551,,1,False,True,False
+MHL,Marshall Islands,2020,52.57377942410293,,1,False,True,False
+MHL,Marshall Islands,2021,56.71468419916801,,1,False,True,False
+MHL,Marshall Islands,2022,57.4958896351689,,1,False,True,False
+MIC,Middle income,2018,45.64972423520942,,1,False,True,False
+MIC,Middle income,2019,46.273941245745455,,1,False,True,False
+MIC,Middle income,2020,48.04114082137543,,1,False,True,False
+MIC,Middle income,2021,51.080107487278354,,1,False,True,False
+MIC,Middle income,2022,52.47586186685796,,1,False,True,False
+MKD,North Macedonia,2018,57.40584429073365,,1,False,True,False
+MKD,North Macedonia,2019,58.5523460610759,,1,False,True,False
+MKD,North Macedonia,2020,58.451085787725845,,1,False,True,False
+MKD,North Macedonia,2021,59.38305069397936,,1,False,True,False
+MKD,North Macedonia,2022,60.36073925560136,,1,False,True,False
+MLI,Mali,2018,24.187033975619592,Tier_4_Low,0,False,False,False
+MLI,Mali,2019,24.97007240070123,Tier_4_Low,0,False,False,False
+MLI,Mali,2020,25.63735999338071,Tier_4_Low,0,False,False,False
+MLI,Mali,2021,27.73300970362651,Tier_4_Low,0,False,False,False
+MLI,Mali,2022,28.140168807327466,Tier_4_Low,0,False,False,False
+MLT,Malta,2018,76.97388463551415,Tier_2_Good,2,True,True,False
+MLT,Malta,2019,78.21889235437558,Tier_2_Good,2,True,True,False
+MLT,Malta,2020,78.35151563020202,Tier_2_Good,2,True,True,False
+MLT,Malta,2021,80.05991044052989,Tier_2_Good,2,True,True,False
+MLT,Malta,2022,81.5368679830591,Tier_2_Good,2,True,True,False
+MMR,Myanmar,2018,28.021193938900776,Tier_4_Low,0,False,False,False
+MMR,Myanmar,2019,30.187697006558796,Tier_4_Low,0,False,False,False
+MMR,Myanmar,2020,32.34782362693199,Tier_4_Low,0,False,False,False
+MMR,Myanmar,2021,30.779525244731534,Tier_4_Low,0,False,False,False
+MMR,Myanmar,2022,30.8953176791063,Tier_4_Low,0,False,False,False
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2018,35.93457365611961,Tier_4_Low,0,False,False,False
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2019,36.73551836624691,Tier_4_Low,0,False,False,False
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2020,37.13066597565639,Tier_4_Low,0,False,False,False
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2021,38.898977290390256,Tier_4_Low,0,False,False,False
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2022,40.53695092643398,Tier_4_Low,0,False,False,False
+MNE,Montenegro,2018,58.9295276848642,,1,False,True,False
+MNE,Montenegro,2019,59.967005745008315,,1,False,True,False
+MNE,Montenegro,2020,59.52110473938273,,1,False,True,False
+MNE,Montenegro,2021,61.92715121259927,,1,False,True,False
+MNE,Montenegro,2022,65.13881199123445,Tier_2_Good,2,True,True,False
+MNG,Mongolia,2018,48.01782299992296,Tier_4_Low,0,False,False,False
+MNG,Mongolia,2019,50.20082256473061,Tier_4_Low,0,False,False,False
+MNG,Mongolia,2020,52.578898391251286,Tier_4_Low,0,False,False,False
+MNG,Mongolia,2021,57.8887256313977,Tier_3_Moderate,1,True,False,False
+MNG,Mongolia,2022,59.0089622466447,Tier_3_Moderate,1,True,False,False
+MNP,Northern Mariana Islands,2018,74.45127280927323,,1,False,True,False
+MNP,Northern Mariana Islands,2019,75.19393168404214,,1,False,True,False
+MNP,Northern Mariana Islands,2020,74.12930478951056,,1,False,True,False
+MNP,Northern Mariana Islands,2021,73.67812115725661,,1,False,True,False
+MNP,Northern Mariana Islands,2022,76.63384901335186,Tier_2_Good,2,True,True,False
+MOZ,Mozambique,2018,20.256382886142344,Tier_4_Low,0,False,False,False
+MOZ,Mozambique,2019,20.96725065814926,Tier_4_Low,0,False,False,False
+MOZ,Mozambique,2020,20.826686378157216,Tier_4_Low,0,False,False,False
+MOZ,Mozambique,2021,21.90673191272615,Tier_4_Low,0,False,False,False
+MOZ,Mozambique,2022,23.307680639507293,Tier_4_Low,0,False,False,False
+MRT,Mauritania,2018,29.99916041087691,Tier_4_Low,0,False,False,False
+MRT,Mauritania,2019,30.91036580174649,Tier_4_Low,0,False,False,False
+MRT,Mauritania,2020,32.349230780061724,Tier_4_Low,0,False,False,False
+MRT,Mauritania,2021,34.53781289716358,Tier_4_Low,0,False,False,False
+MRT,Mauritania,2022,36.88986165642519,Tier_4_Low,0,False,False,False
+MUS,Mauritius,2018,53.5219654257723,,1,False,True,False
+MUS,Mauritius,2019,54.49838748883094,,1,False,True,False
+MUS,Mauritius,2020,54.126309629695115,,1,False,True,False
+MUS,Mauritius,2021,54.859514303147385,,1,False,True,False
+MUS,Mauritius,2022,56.841212576585974,,1,False,True,False
+MWI,Malawi,2018,14.498200292611175,Tier_4_Low,0,False,False,False
+MWI,Malawi,2019,15.807031053630146,Tier_4_Low,0,False,False,False
+MWI,Malawi,2020,17.37510064297494,Tier_4_Low,0,False,False,False
+MWI,Malawi,2021,17.564113940143823,Tier_4_Low,0,False,False,False
+MWI,Malawi,2022,17.981440248375037,Tier_4_Low,0,False,False,False
+MYS,Malaysia,2018,65.59573012023885,Tier_2_Good,2,True,True,False
+MYS,Malaysia,2019,66.64310234491559,Tier_2_Good,2,True,True,False
+MYS,Malaysia,2020,67.45954953658386,Tier_2_Good,2,True,True,False
+MYS,Malaysia,2021,69.92111947252322,Tier_2_Good,2,True,True,False
+MYS,Malaysia,2022,70.85044490498966,Tier_2_Good,2,True,True,False
+NAC,North America,2018,82.46852416395213,Tier_2_Good,2,True,True,False
+NAC,North America,2019,82.93424911900897,Tier_2_Good,2,True,True,False
+NAC,North America,2020,82.81590592800978,Tier_2_Good,2,True,True,False
+NAC,North America,2021,83.86719280227419,Tier_2_Good,2,True,True,False
+NAC,North America,2022,84.81870437186102,Tier_2_Good,2,True,True,False
+NAM,Namibia,2018,45.55917154339616,,1,False,True,False
+NAM,Namibia,2019,47.18494018916839,Tier_4_Low,0,False,False,False
+NAM,Namibia,2020,47.770614340001075,Tier_4_Low,0,False,False,False
+NAM,Namibia,2021,48.987878947334416,Tier_4_Low,0,False,False,False
+NAM,Namibia,2022,50.06186368868885,Tier_4_Low,0,False,False,False
+NCL,New Caledonia,2018,74.07761929990905,Tier_2_Good,2,True,True,False
+NCL,New Caledonia,2019,75.61246990840219,Tier_2_Good,2,True,True,False
+NCL,New Caledonia,2020,76.20965616816135,Tier_2_Good,2,True,True,False
+NCL,New Caledonia,2021,75.8305764420972,Tier_2_Good,2,True,True,False
+NCL,New Caledonia,2022,76.08679962034955,Tier_2_Good,2,True,True,False
+NER,Niger,2018,16.25509340293854,Tier_4_Low,0,False,False,False
+NER,Niger,2019,16.44661380687954,Tier_4_Low,0,False,False,False
+NER,Niger,2020,16.887175350406253,Tier_4_Low,0,False,False,False
+NER,Niger,2021,18.049334758859814,Tier_4_Low,0,False,False,False
+NER,Niger,2022,18.880797123380102,Tier_4_Low,0,False,False,False
+NGA,Nigeria,2018,39.426502272219146,Tier_4_Low,0,False,False,False
+NGA,Nigeria,2019,42.34664228769433,Tier_4_Low,0,False,False,False
+NGA,Nigeria,2020,42.633279882542695,Tier_4_Low,0,False,False,False
+NGA,Nigeria,2021,44.382105340122656,Tier_4_Low,0,False,False,False
+NGA,Nigeria,2022,45.85050095590568,Tier_4_Low,0,False,False,False
+NIC,Nicaragua,2018,37.59382462156633,Tier_4_Low,0,False,False,False
+NIC,Nicaragua,2019,38.67558922324731,Tier_4_Low,0,False,False,False
+NIC,Nicaragua,2020,39.906219599446224,Tier_4_Low,0,False,False,False
+NIC,Nicaragua,2021,42.66797464135474,Tier_4_Low,0,False,False,False
+NIC,Nicaragua,2022,45.33573667702686,Tier_4_Low,0,False,False,False
+NLD,Netherlands,2018,84.82590933572725,Tier_2_Good,2,True,True,False
+NLD,Netherlands,2019,85.57373282365228,Tier_2_Good,2,True,True,False
+NLD,Netherlands,2020,85.03579324634714,Tier_2_Good,2,True,True,False
+NLD,Netherlands,2021,86.28376104498045,Tier_2_Good,2,True,True,False
+NLD,Netherlands,2022,86.64052836824591,Tier_2_Good,2,True,True,False
+NOR,Norway,2018,87.65224812416182,Tier_2_Good,2,True,True,False
+NOR,Norway,2019,87.84984446115214,Tier_2_Good,2,True,True,False
+NOR,Norway,2020,86.37565306374321,Tier_2_Good,2,True,True,False
+NOR,Norway,2021,88.85075429707646,Tier_2_Good,2,True,True,False
+NOR,Norway,2022,90.02090880495362,Tier_2_Good,2,True,True,False
+NPL,Nepal,2018,30.65580220412939,Tier_4_Low,0,False,False,False
+NPL,Nepal,2019,32.36034002222727,Tier_4_Low,0,False,False,False
+NPL,Nepal,2020,32.98310620478543,Tier_4_Low,0,False,False,False
+NPL,Nepal,2021,34.54334852716018,Tier_4_Low,0,False,False,False
+NPL,Nepal,2022,36.48329890422392,Tier_4_Low,0,False,False,False
+NRU,Nauru,2018,67.50744467514617,,1,False,True,False
+NRU,Nauru,2019,68.75198167679024,,1,False,True,False
+NRU,Nauru,2020,70.28276140002379,,1,False,True,False
+NRU,Nauru,2021,72.77196200894224,,1,False,True,False
+NRU,Nauru,2022,73.95953346465812,Tier_2_Good,2,True,True,False
+NZL,New Zealand,2018,81.40904846803917,Tier_2_Good,2,True,True,False
+NZL,New Zealand,2019,81.73649113532278,Tier_2_Good,2,True,True,False
+NZL,New Zealand,2020,81.74962822919089,Tier_2_Good,2,True,True,False
+NZL,New Zealand,2021,83.14139502746919,Tier_2_Good,2,True,True,False
+NZL,New Zealand,2022,83.71598970106861,Tier_2_Good,2,True,True,False
+OMN,Oman,2018,69.00310863476585,,1,False,True,False
+OMN,Oman,2019,70.32008940624216,,1,False,True,False
+OMN,Oman,2020,70.907996291689,,1,False,True,False
+OMN,Oman,2021,71.69818199105033,,1,False,True,False
+OMN,Oman,2022,72.79340315365904,,1,False,True,False
+OSS,Other small states,2018,59.55938005949626,Tier_2_Good,2,True,True,False
+OSS,Other small states,2019,60.985341736675295,Tier_2_Good,2,True,True,False
+OSS,Other small states,2020,60.59613267593924,Tier_2_Good,2,True,True,False
+OSS,Other small states,2021,62.60920801099511,Tier_2_Good,2,True,True,False
+OSS,Other small states,2022,63.2278184989251,Tier_2_Good,2,True,True,False
+PAK,Pakistan,2018,23.47501980985099,Tier_4_Low,0,False,False,False
+PAK,Pakistan,2019,23.647351858572485,Tier_4_Low,0,False,False,False
+PAK,Pakistan,2020,23.532139591668326,Tier_4_Low,0,False,False,False
+PAK,Pakistan,2021,32.35442151335322,Tier_4_Low,0,False,False,False
+PAK,Pakistan,2022,34.698734598928645,Tier_4_Low,0,False,False,False
+PAN,Panama,2018,62.16814321896012,,1,False,True,False
+PAN,Panama,2019,63.1385123553508,,1,False,True,False
+PAN,Panama,2020,61.93126134118362,,1,False,True,False
+PAN,Panama,2021,62.425543018230904,,1,False,True,False
+PAN,Panama,2022,64.07968951577199,,1,False,True,False
+PER,Peru,2018,59.192777451257214,,1,False,True,False
+PER,Peru,2019,60.796724746635704,,1,False,True,False
+PER,Peru,2020,60.00193632568569,,1,False,True,False
+PER,Peru,2021,62.930271675092015,Tier_2_Good,2,True,True,False
+PER,Peru,2022,64.66391993118204,Tier_2_Good,2,True,True,False
+PHL,Philippines,2018,42.75799727741446,Tier_4_Low,0,False,False,False
+PHL,Philippines,2019,43.11896380966274,Tier_4_Low,0,False,False,False
+PHL,Philippines,2020,44.890688068588396,Tier_4_Low,0,False,False,False
+PHL,Philippines,2021,49.116895702576294,Tier_4_Low,0,False,False,False
+PHL,Philippines,2022,52.632010117229214,Tier_3_Moderate,1,True,False,False
+PLW,Palau,2018,67.89335822611581,,1,False,True,False
+PLW,Palau,2019,69.00001146845092,,1,False,True,False
+PLW,Palau,2020,68.3684012029805,,1,False,True,False
+PLW,Palau,2021,67.83697042861172,Tier_2_Good,2,True,True,False
+PLW,Palau,2022,68.65018138071187,Tier_2_Good,2,True,True,False
+PNG,Papua New Guinea,2018,25.460563429701324,Tier_4_Low,0,False,False,False
+PNG,Papua New Guinea,2019,26.04463542330261,Tier_4_Low,0,False,False,False
+PNG,Papua New Guinea,2020,26.194470615775845,Tier_4_Low,0,False,False,False
+PNG,Papua New Guinea,2021,26.955959302530935,Tier_4_Low,0,False,False,False
+PNG,Papua New Guinea,2022,28.588644528654445,Tier_4_Low,0,False,False,False
+POL,Poland,2018,64.41625958607518,Tier_2_Good,2,True,True,False
+POL,Poland,2019,65.46735812526319,Tier_2_Good,2,True,True,False
+POL,Poland,2020,66.235007942218,Tier_2_Good,2,True,True,False
+POL,Poland,2021,67.95629132884577,Tier_2_Good,2,True,True,False
+POL,Poland,2022,68.82550588954717,Tier_2_Good,2,True,True,False
+PRE,Pre-demographic dividend,2018,31.599340876885734,Tier_4_Low,0,False,False,False
+PRE,Pre-demographic dividend,2019,32.76609183137882,Tier_4_Low,0,False,False,False
+PRE,Pre-demographic dividend,2020,30.91792041839847,Tier_4_Low,0,False,False,False
+PRE,Pre-demographic dividend,2021,32.044747037907875,Tier_4_Low,0,False,False,False
+PRE,Pre-demographic dividend,2022,33.62118960615257,Tier_4_Low,0,False,False,False
+PRI,Puerto Rico (US),2018,70.45128167136573,,1,False,True,False
+PRI,Puerto Rico (US),2019,72.60441090700442,,1,False,True,False
+PRI,Puerto Rico (US),2020,77.14826013592254,,1,False,True,False
+PRI,Puerto Rico (US),2021,75.06885963165479,,1,False,True,False
+PRI,Puerto Rico (US),2022,76.40455214070019,,1,False,True,False
+PRK,"Korea, Dem. People's Rep.",2018,57.021513768827255,,1,False,True,False
+PRK,"Korea, Dem. People's Rep.",2019,62.131815695441354,,1,False,True,False
+PRK,"Korea, Dem. People's Rep.",2020,57.034682193406255,,1,False,True,False
+PRK,"Korea, Dem. People's Rep.",2021,56.36441050434675,,1,False,True,False
+PRK,"Korea, Dem. People's Rep.",2022,58.40397789304606,,1,False,True,False
+PRT,Portugal,2018,67.55028961039258,Tier_2_Good,2,True,True,False
+PRT,Portugal,2019,67.91006446370693,Tier_2_Good,2,True,True,False
+PRT,Portugal,2020,68.10954332754388,Tier_2_Good,2,True,True,False
+PRT,Portugal,2021,69.85471282700159,Tier_2_Good,2,True,True,False
+PRT,Portugal,2022,70.81015535595563,Tier_2_Good,2,True,True,False
+PRY,Paraguay,2018,56.42162990302712,,1,False,True,False
+PRY,Paraguay,2019,57.298367835613895,Tier_2_Good,2,True,True,False
+PRY,Paraguay,2020,57.96040969573507,Tier_2_Good,2,True,True,False
+PRY,Paraguay,2021,59.86485752249964,Tier_2_Good,2,True,True,False
+PRY,Paraguay,2022,60.05665241163211,Tier_2_Good,2,True,True,False
+PSE,West Bank and Gaza,2018,51.30850353386334,Tier_4_Low,0,False,False,False
+PSE,West Bank and Gaza,2019,53.19128641660988,Tier_4_Low,0,False,False,False
+PSE,West Bank and Gaza,2020,53.51619448133729,Tier_4_Low,0,False,False,False
+PSE,West Bank and Gaza,2021,55.10228628403575,Tier_4_Low,0,False,False,False
+PSE,West Bank and Gaza,2022,58.69468260431043,Tier_4_Low,0,False,False,False
+PSS,Pacific island small states,2018,45.38664258097813,Tier_4_Low,0,False,False,False
+PSS,Pacific island small states,2019,38.39575436065196,Tier_4_Low,0,False,False,False
+PSS,Pacific island small states,2020,37.230208491301745,Tier_4_Low,0,False,False,False
+PSS,Pacific island small states,2021,36.728105680106154,Tier_4_Low,0,False,False,False
+PSS,Pacific island small states,2022,46.156098726925975,Tier_4_Low,0,False,False,False
+PST,Post-demographic dividend,2018,80.11791657009701,Tier_2_Good,2,True,True,False
+PST,Post-demographic dividend,2019,80.81038757387518,Tier_2_Good,2,True,True,False
+PST,Post-demographic dividend,2020,80.10637961819675,Tier_2_Good,2,True,True,False
+PST,Post-demographic dividend,2021,81.38781232602682,Tier_2_Good,2,True,True,False
+PST,Post-demographic dividend,2022,82.33091278678818,Tier_2_Good,2,True,True,False
+PYF,French Polynesia,2018,67.63285369176154,Tier_2_Good,2,True,True,False
+PYF,French Polynesia,2019,68.49108397622302,Tier_2_Good,2,True,True,False
+PYF,French Polynesia,2020,68.73398645967596,Tier_2_Good,2,True,True,False
+PYF,French Polynesia,2021,68.27110909412407,Tier_2_Good,2,True,True,False
+PYF,French Polynesia,2022,68.2202958819107,,1,False,True,False
+QAT,Qatar,2018,89.49135354121958,Tier_2_Good,2,True,True,False
+QAT,Qatar,2019,89.48282291893665,Tier_2_Good,2,True,True,False
+QAT,Qatar,2020,88.08101038990448,Tier_2_Good,2,True,True,False
+QAT,Qatar,2021,90.03200604636686,Tier_2_Good,2,True,True,False
+QAT,Qatar,2022,91.02496845295471,Tier_2_Good,2,True,True,False
+ROU,Romania,2018,58.80767039756559,,1,False,True,False
+ROU,Romania,2019,60.04460071741961,,1,False,True,False
+ROU,Romania,2020,61.27086102133574,,1,False,True,False
+ROU,Romania,2021,63.465799482474424,,1,False,True,False
+ROU,Romania,2022,64.46040116798024,,1,False,True,False
+RUS,Russia,2018,66.09025028914893,Tier_2_Good,2,True,True,False
+RUS,Russia,2019,66.91058249610971,Tier_2_Good,2,True,True,False
+RUS,Russia,2020,66.864790170974,Tier_2_Good,2,True,True,False
+RUS,Russia,2021,68.91690808056381,Tier_2_Good,2,True,True,False
+RUS,Russia,2022,70.7622536633106,Tier_2_Good,2,True,True,False
+RWA,Rwanda,2018,20.64647202272732,Tier_4_Low,0,False,False,False
+RWA,Rwanda,2019,21.59742716502314,Tier_4_Low,0,False,False,False
+RWA,Rwanda,2020,22.746825416912404,Tier_4_Low,0,False,False,False
+RWA,Rwanda,2021,23.2376488659808,Tier_4_Low,0,False,False,False
+RWA,Rwanda,2022,25.774475206003082,Tier_4_Low,0,False,False,False
+SAS,South Asia,2018,26.975413218531532,Tier_4_Low,0,False,False,False
+SAS,South Asia,2019,29.690067283094493,Tier_4_Low,0,False,False,False
+SAS,South Asia,2020,32.57677671579219,Tier_4_Low,0,False,False,False
+SAS,South Asia,2021,35.32294058585613,Tier_4_Low,0,False,False,False
+SAS,South Asia,2022,37.71896342174786,Tier_4_Low,0,False,False,False
+SAU,Saudi Arabia,2018,73.81781106648675,,1,False,True,False
+SAU,Saudi Arabia,2019,75.1647740274546,,1,False,True,False
+SAU,Saudi Arabia,2020,75.35487101969441,,1,False,True,False
+SAU,Saudi Arabia,2021,78.06270867952337,,1,False,True,False
+SAU,Saudi Arabia,2022,79.30854985994574,,1,False,True,False
+SDN,Sudan,2018,19.862870324785195,Tier_4_Low,0,False,False,False
+SDN,Sudan,2019,20.195581597461057,Tier_4_Low,0,False,False,False
+SDN,Sudan,2020,20.442300449385648,Tier_4_Low,0,False,False,False
+SDN,Sudan,2021,24.43337285982661,Tier_4_Low,0,False,False,False
+SDN,Sudan,2022,27.478701633861906,Tier_4_Low,0,False,False,False
+SEN,Senegal,2018,32.0695170310258,Tier_4_Low,0,False,False,False
+SEN,Senegal,2019,34.54205871171098,Tier_4_Low,0,False,False,False
+SEN,Senegal,2020,37.41976381496553,Tier_4_Low,0,False,False,False
+SEN,Senegal,2021,38.727878130060795,Tier_4_Low,0,False,False,False
+SEN,Senegal,2022,39.51714000917062,Tier_4_Low,0,False,False,False
+SGP,Singapore,2018,86.31237466916103,Tier_2_Good,2,True,True,False
+SGP,Singapore,2019,86.71266157274674,Tier_2_Good,2,True,True,False
+SGP,Singapore,2020,87.05856629019678,Tier_2_Good,2,True,True,False
+SGP,Singapore,2021,90.2653914885475,Tier_2_Good,2,True,True,False
+SGP,Singapore,2022,90.38853421020234,Tier_2_Good,2,True,True,False
+SLB,Solomon Islands,2018,33.40951382226087,Tier_4_Low,0,False,False,False
+SLB,Solomon Islands,2019,34.01888300467427,Tier_4_Low,0,False,False,False
+SLB,Solomon Islands,2020,34.151130757333526,Tier_4_Low,0,False,False,False
+SLB,Solomon Islands,2021,34.714417299506174,Tier_4_Low,0,False,False,False
+SLB,Solomon Islands,2022,34.84128269359715,Tier_4_Low,0,False,False,False
+SLE,Sierra Leone,2018,23.385707740061015,Tier_4_Low,0,False,False,False
+SLE,Sierra Leone,2019,23.911174317895075,Tier_4_Low,0,False,False,False
+SLE,Sierra Leone,2020,24.273764325369317,Tier_4_Low,0,False,False,False
+SLE,Sierra Leone,2021,25.203938909644965,Tier_4_Low,0,False,False,False
+SLE,Sierra Leone,2022,26.073368605618235,Tier_4_Low,0,False,False,False
+SLV,El Salvador,2018,47.32005818616944,Tier_4_Low,0,False,False,False
+SLV,El Salvador,2019,49.62021836022831,Tier_4_Low,0,False,False,False
+SLV,El Salvador,2020,49.85933438327971,Tier_4_Low,0,False,False,False
+SLV,El Salvador,2021,52.014389101165285,Tier_4_Low,0,False,False,False
+SLV,El Salvador,2022,53.53726871525386,,1,False,True,False
+SMR,San Marino,2018,82.69042342718093,Tier_2_Good,2,True,True,False
+SMR,San Marino,2019,77.4357471688163,,1,False,True,False
+SMR,San Marino,2020,79.65832045568791,Tier_2_Good,2,True,True,False
+SMR,San Marino,2021,82.17926573680008,Tier_2_Good,2,True,True,False
+SMR,San Marino,2022,86.73566743240191,Tier_2_Good,2,True,True,False
+SOM,"Somalia, Fed. Rep.",2018,22.807940205753983,Tier_4_Low,0,False,False,False
+SOM,"Somalia, Fed. Rep.",2019,14.731850822888761,Tier_4_Low,0,False,False,False
+SOM,"Somalia, Fed. Rep.",2020,17.745067108006932,Tier_4_Low,0,False,False,False
+SOM,"Somalia, Fed. Rep.",2021,20.68090406668533,Tier_4_Low,0,False,False,False
+SOM,"Somalia, Fed. Rep.",2022,22.089354455257556,Tier_4_Low,0,False,False,False
+SRB,Serbia,2018,57.48340373423923,,1,False,True,False
+SRB,Serbia,2019,59.07633875195922,,1,False,True,False
+SRB,Serbia,2020,59.64298822216652,,1,False,True,False
+SRB,Serbia,2021,61.92798719731333,Tier_2_Good,2,True,True,False
+SRB,Serbia,2022,63.27335856444126,Tier_2_Good,2,True,True,False
+SSA,Sub-Saharan Africa (excluding high income),2018,32.38237002766733,Tier_4_Low,0,False,False,False
+SSA,Sub-Saharan Africa (excluding high income),2019,33.73455592942206,Tier_4_Low,0,False,False,False
+SSA,Sub-Saharan Africa (excluding high income),2020,33.90284862517001,Tier_4_Low,0,False,False,False
+SSA,Sub-Saharan Africa (excluding high income),2021,35.316707362465756,Tier_4_Low,0,False,False,False
+SSA,Sub-Saharan Africa (excluding high income),2022,36.416903541280384,Tier_4_Low,0,False,False,False
+SSD,South Sudan,2018,33.301529088773634,Tier_4_Low,0,False,False,False
+SSD,South Sudan,2019,18.176965722874957,Tier_4_Low,0,False,False,False
+SSD,South Sudan,2020,49.75965380258135,,1,False,True,False
+SSD,South Sudan,2021,49.91214208823767,,1,False,True,False
+SSD,South Sudan,2022,49.74766289344958,,1,False,True,False
+SSF,Sub-Saharan Africa,2018,31.345679343249643,Tier_4_Low,0,False,False,False
+SSF,Sub-Saharan Africa,2019,32.642183574223196,Tier_4_Low,0,False,False,False
+SSF,Sub-Saharan Africa,2020,32.72011794491481,Tier_4_Low,0,False,False,False
+SSF,Sub-Saharan Africa,2021,34.095905233942055,Tier_4_Low,0,False,False,False
+SSF,Sub-Saharan Africa,2022,35.137266214054925,Tier_4_Low,0,False,False,False
+SST,Small states,2018,55.92087600799114,,1,False,True,False
+SST,Small states,2019,57.23458332933532,,1,False,True,False
+SST,Small states,2020,57.184804677497915,,1,False,True,False
+SST,Small states,2021,59.02254083587893,,1,False,True,False
+SST,Small states,2022,60.2015885068731,,1,False,True,False
+STP,Sao Tome and Principe,2018,35.989663652663495,Tier_4_Low,0,False,False,False
+STP,Sao Tome and Principe,2019,38.21091230267354,Tier_4_Low,0,False,False,False
+STP,Sao Tome and Principe,2020,40.91861540147155,Tier_4_Low,0,False,False,False
+STP,Sao Tome and Principe,2021,42.52270367086418,Tier_4_Low,0,False,False,False
+STP,Sao Tome and Principe,2022,43.88530874034163,Tier_4_Low,0,False,False,False
+SUR,Suriname,2018,52.52239510513502,,1,False,True,False
+SUR,Suriname,2019,54.49626070892648,,1,False,True,False
+SUR,Suriname,2020,54.848327354066136,Tier_4_Low,0,False,False,False
+SUR,Suriname,2021,54.88317907523725,Tier_4_Low,0,False,False,False
+SUR,Suriname,2022,57.09998642413331,,1,False,True,False
+SVK,Slovakia,2018,66.07942305317214,Tier_2_Good,2,True,True,False
+SVK,Slovakia,2019,66.7926647367938,Tier_2_Good,2,True,True,False
+SVK,Slovakia,2020,68.67641615936913,Tier_2_Good,2,True,True,False
+SVK,Slovakia,2021,69.48955779449157,Tier_2_Good,2,True,True,False
+SVK,Slovakia,2022,69.6681599404866,Tier_2_Good,2,True,True,False
+SVN,Slovenia,2018,68.48784978053628,Tier_2_Good,2,True,True,False
+SVN,Slovenia,2019,69.55907568321221,Tier_2_Good,2,True,True,False
+SVN,Slovenia,2020,70.29071714727141,Tier_2_Good,2,True,True,False
+SVN,Slovenia,2021,71.88432947238253,Tier_2_Good,2,True,True,False
+SVN,Slovenia,2022,71.96434979671886,Tier_2_Good,2,True,True,False
+SWE,Sweden,2018,83.47660148078889,Tier_2_Good,2,True,True,False
+SWE,Sweden,2019,84.80401023479189,Tier_2_Good,2,True,True,False
+SWE,Sweden,2020,84.73502367053636,Tier_2_Good,2,True,True,False
+SWE,Sweden,2021,85.70724864424173,Tier_2_Good,2,True,True,False
+SWE,Sweden,2022,85.61580018195825,Tier_2_Good,2,True,True,False
+SWZ,Eswatini,2018,37.202976361603966,Tier_4_Low,0,False,False,False
+SWZ,Eswatini,2019,38.620944412959034,Tier_4_Low,0,False,False,False
+SWZ,Eswatini,2020,39.19955012663466,Tier_4_Low,0,False,False,False
+SWZ,Eswatini,2021,41.35628560442361,Tier_4_Low,0,False,False,False
+SWZ,Eswatini,2022,42.285896020227405,Tier_4_Low,0,False,False,False
+SXM,Sint Maarten (Dutch part),2018,81.49538035365104,Tier_2_Good,2,True,True,False
+SXM,Sint Maarten (Dutch part),2019,81.97034127445423,Tier_2_Good,2,True,True,False
+SXM,Sint Maarten (Dutch part),2020,80.54200980505395,,1,False,True,False
+SXM,Sint Maarten (Dutch part),2021,81.36013069803664,,1,False,True,False
+SXM,Sint Maarten (Dutch part),2022,83.38480243142904,Tier_2_Good,2,True,True,False
+SYC,Seychelles,2018,60.53493353069384,,1,False,True,False
+SYC,Seychelles,2019,62.83476713160036,,1,False,True,False
+SYC,Seychelles,2020,61.49178486944344,,1,False,True,False
+SYC,Seychelles,2021,62.249663018021366,,1,False,True,False
+SYC,Seychelles,2022,63.58899675228037,,1,False,True,False
+SYR,Syrian Arab Republic,2018,30.20243030517335,Tier_4_Low,0,False,False,False
+SYR,Syrian Arab Republic,2019,36.903649864445484,Tier_4_Low,0,False,False,False
+SYR,Syrian Arab Republic,2020,35.176800458094434,Tier_4_Low,0,False,False,False
+SYR,Syrian Arab Republic,2021,36.88976711336532,Tier_4_Low,0,False,False,False
+SYR,Syrian Arab Republic,2022,40.489234996920175,Tier_4_Low,0,False,False,False
+TCA,Turks and Caicos Islands,2018,79.93202799255799,Tier_2_Good,2,True,True,False
+TCA,Turks and Caicos Islands,2019,79.2246203845288,,1,False,True,False
+TCA,Turks and Caicos Islands,2020,75.09205731570917,,1,False,True,False
+TCA,Turks and Caicos Islands,2021,77.97940310190971,,1,False,True,False
+TCA,Turks and Caicos Islands,2022,79.77216695394675,Tier_2_Good,2,True,True,False
+TCD,Chad,2018,18.4510693862843,Tier_4_Low,0,False,False,False
+TCD,Chad,2019,18.591991956312828,Tier_4_Low,0,False,False,False
+TCD,Chad,2020,18.571031152255422,Tier_4_Low,0,False,False,False
+TCD,Chad,2021,19.348366902036464,Tier_4_Low,0,False,False,False
+TCD,Chad,2022,20.131106757695846,Tier_4_Low,0,False,False,False
+TEA,East Asia & Pacific (IDA & IBRD countries),2018,55.92275365503276,,1,False,True,False
+TEA,East Asia & Pacific (IDA & IBRD countries),2019,57.64230203605642,,1,False,True,False
+TEA,East Asia & Pacific (IDA & IBRD countries),2020,59.861498338696734,Tier_2_Good,2,True,True,False
+TEA,East Asia & Pacific (IDA & IBRD countries),2021,62.69533507892294,Tier_2_Good,2,True,True,False
+TEA,East Asia & Pacific (IDA & IBRD countries),2022,64.11549931794332,Tier_2_Good,2,True,True,False
+TEC,Europe & Central Asia (IDA & IBRD countries),2018,60.19857327210161,Tier_2_Good,2,True,True,False
+TEC,Europe & Central Asia (IDA & IBRD countries),2019,61.34360586343371,Tier_2_Good,2,True,True,False
+TEC,Europe & Central Asia (IDA & IBRD countries),2020,61.76336256585612,,1,False,True,False
+TEC,Europe & Central Asia (IDA & IBRD countries),2021,63.89142724527436,,1,False,True,False
+TEC,Europe & Central Asia (IDA & IBRD countries),2022,65.49721491861308,Tier_2_Good,2,True,True,False
+TGO,Togo,2018,24.039351578576674,Tier_4_Low,0,False,False,False
+TGO,Togo,2019,25.509176649660105,Tier_4_Low,0,False,False,False
+TGO,Togo,2020,27.905036274444875,Tier_4_Low,0,False,False,False
+TGO,Togo,2021,29.025453924745435,Tier_4_Low,0,False,False,False
+TGO,Togo,2022,30.772755905273083,Tier_4_Low,0,False,False,False
+THA,Thailand,2018,53.31953683519988,,1,False,True,False
+THA,Thailand,2019,56.65452307534308,,1,False,True,False
+THA,Thailand,2020,59.43959197041007,Tier_2_Good,2,True,True,False
+THA,Thailand,2021,61.76131161789238,Tier_2_Good,2,True,True,False
+THA,Thailand,2022,62.721973031248666,Tier_2_Good,2,True,True,False
+TJK,Tajikistan,2018,22.062021037866796,Tier_4_Low,0,False,False,False
+TJK,Tajikistan,2019,19.689654574683928,Tier_4_Low,0,False,False,False
+TJK,Tajikistan,2020,20.71463700902411,Tier_4_Low,0,False,False,False
+TJK,Tajikistan,2021,23.741571650276025,Tier_4_Low,0,False,False,False
+TJK,Tajikistan,2022,28.325127371444495,Tier_4_Low,0,False,False,False
+TKM,Turkmenistan,2018,50.25050216044766,,1,False,True,False
+TKM,Turkmenistan,2019,49.86294310034547,,1,False,True,False
+TKM,Turkmenistan,2020,51.56007439742841,,1,False,True,False
+TKM,Turkmenistan,2021,51.78753398318074,,1,False,True,False
+TKM,Turkmenistan,2022,52.085465625475045,,1,False,True,False
+TLA,Latin America & the Caribbean (IDA & IBRD countries),2018,60.34673648717507,,1,False,True,False
+TLA,Latin America & the Caribbean (IDA & IBRD countries),2019,61.463974176149776,,1,False,True,False
+TLA,Latin America & the Caribbean (IDA & IBRD countries),2020,61.37111629214437,Tier_2_Good,2,True,True,False
+TLA,Latin America & the Caribbean (IDA & IBRD countries),2021,63.06801817050813,Tier_2_Good,2,True,True,False
+TLA,Latin America & the Caribbean (IDA & IBRD countries),2022,64.33647581587455,Tier_2_Good,2,True,True,False
+TLS,Timor-Leste,2018,29.986210676824523,Tier_4_Low,0,False,False,False
+TLS,Timor-Leste,2019,31.65608411919909,Tier_4_Low,0,False,False,False
+TLS,Timor-Leste,2020,32.532838122881685,Tier_4_Low,0,False,False,False
+TLS,Timor-Leste,2021,35.33352961095745,Tier_4_Low,0,False,False,False
+TLS,Timor-Leste,2022,32.47346174394957,Tier_4_Low,0,False,False,False
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",2018,35.82173469592909,Tier_4_Low,0,False,False,False
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",2019,36.61808622570486,Tier_4_Low,0,False,False,False
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",2020,37.01480892661424,Tier_4_Low,0,False,False,False
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",2021,38.778417381308465,Tier_4_Low,0,False,False,False
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",2022,40.38919127296783,Tier_4_Low,0,False,False,False
+TON,Tonga,2018,40.54712605919542,Tier_4_Low,0,False,False,False
+TON,Tonga,2019,41.54655691653954,Tier_4_Low,0,False,False,False
+TON,Tonga,2020,42.34636629687913,Tier_4_Low,0,False,False,False
+TON,Tonga,2021,43.206105227663826,Tier_4_Low,0,False,False,False
+TON,Tonga,2022,44.6375464883091,,1,False,True,False
+TSA,South Asia (IDA & IBRD),2018,26.975413218531532,Tier_4_Low,0,False,False,False
+TSA,South Asia (IDA & IBRD),2019,29.69006728309451,Tier_4_Low,0,False,False,False
+TSA,South Asia (IDA & IBRD),2020,32.57677671579219,Tier_4_Low,0,False,False,False
+TSA,South Asia (IDA & IBRD),2021,35.32294058585613,Tier_4_Low,0,False,False,False
+TSA,South Asia (IDA & IBRD),2022,37.71896342174786,Tier_4_Low,0,False,False,False
+TSS,Sub-Saharan Africa (IDA & IBRD countries),2018,31.371895408869392,Tier_4_Low,0,False,False,False
+TSS,Sub-Saharan Africa (IDA & IBRD countries),2019,32.642183574223196,Tier_4_Low,0,False,False,False
+TSS,Sub-Saharan Africa (IDA & IBRD countries),2020,32.74633401053456,Tier_4_Low,0,False,False,False
+TSS,Sub-Saharan Africa (IDA & IBRD countries),2021,34.069689168322306,Tier_4_Low,0,False,False,False
+TSS,Sub-Saharan Africa (IDA & IBRD countries),2022,35.137266214054925,Tier_4_Low,0,False,False,False
+TTO,Trinidad and Tobago,2018,63.27328468711575,Tier_2_Good,2,True,True,False
+TTO,Trinidad and Tobago,2019,63.831640311113944,Tier_2_Good,2,True,True,False
+TTO,Trinidad and Tobago,2020,63.266579991566104,Tier_2_Good,2,True,True,False
+TTO,Trinidad and Tobago,2021,65.9277098948056,Tier_2_Good,2,True,True,False
+TTO,Trinidad and Tobago,2022,66.2305369201621,Tier_2_Good,2,True,True,False
+TUN,Tunisia,2018,49.06966545783587,Tier_4_Low,0,False,False,False
+TUN,Tunisia,2019,49.6747721214438,Tier_4_Low,0,False,False,False
+TUN,Tunisia,2020,49.64325708333788,Tier_4_Low,0,False,False,False
+TUN,Tunisia,2021,50.44323388924414,Tier_4_Low,0,False,False,False
+TUN,Tunisia,2022,52.60483123538693,Tier_4_Low,0,False,False,False
+TUR,Turkiye,2018,62.870915817860755,,1,False,True,False
+TUR,Turkiye,2019,63.36086952595747,,1,False,True,False
+TUR,Turkiye,2020,63.44318770817601,,1,False,True,False
+TUR,Turkiye,2021,65.53734933295688,,1,False,True,False
+TUR,Turkiye,2022,66.8845900571003,,1,False,True,False
+TUV,Tuvalu,2018,54.21871489122218,Tier_3_Moderate,1,True,False,False
+TUV,Tuvalu,2019,56.263740029606154,Tier_2_Good,2,True,True,False
+TUV,Tuvalu,2020,57.203510267592435,Tier_3_Moderate,1,True,False,False
+TUV,Tuvalu,2021,59.75761658773384,Tier_2_Good,2,True,True,False
+TUV,Tuvalu,2022,62.12113923654545,Tier_2_Good,2,True,True,False
+TZA,Tanzania,2018,27.105951107233945,Tier_4_Low,0,False,False,False
+TZA,Tanzania,2019,27.779483111031716,Tier_4_Low,0,False,False,False
+TZA,Tanzania,2020,28.73583985243762,Tier_4_Low,0,False,False,False
+TZA,Tanzania,2021,30.225984513020606,Tier_4_Low,0,False,False,False
+TZA,Tanzania,2022,31.73700694039979,Tier_4_Low,0,False,False,False
+UGA,Uganda,2018,21.413374719164075,Tier_4_Low,0,False,False,False
+UGA,Uganda,2019,22.771365097782052,Tier_4_Low,0,False,False,False
+UGA,Uganda,2020,21.93276102821448,Tier_4_Low,0,False,False,False
+UGA,Uganda,2021,23.164438010551216,Tier_4_Low,0,False,False,False
+UGA,Uganda,2022,23.897641146017357,Tier_4_Low,0,False,False,False
+UKR,Ukraine,2018,49.84470534702517,Tier_4_Low,0,False,False,False
+UKR,Ukraine,2019,53.110342499001774,Tier_3_Moderate,1,True,False,False
+UKR,Ukraine,2020,54.63069922833292,Tier_3_Moderate,1,True,False,False
+UKR,Ukraine,2021,57.16037443690325,Tier_4_Low,0,False,False,False
+UKR,Ukraine,2022,55.48703690134959,Tier_4_Low,0,False,False,False
+URY,Uruguay,2018,73.92176590923192,Tier_2_Good,2,True,True,False
+URY,Uruguay,2019,74.57098783563367,Tier_2_Good,2,True,True,False
+URY,Uruguay,2020,73.85813461953637,Tier_2_Good,2,True,True,False
+URY,Uruguay,2021,75.17547808136563,Tier_2_Good,2,True,True,False
+URY,Uruguay,2022,76.6745957334164,Tier_2_Good,2,True,True,False
+USA,United States,2018,82.43186169010717,Tier_2_Good,2,True,True,False
+USA,United States,2019,82.99549576203641,Tier_2_Good,2,True,True,False
+USA,United States,2020,82.9356754093878,Tier_2_Good,2,True,True,False
+USA,United States,2021,83.91493851362891,Tier_2_Good,2,True,True,False
+USA,United States,2022,84.96216744464523,Tier_2_Good,2,True,True,False
+UZB,Uzbekistan,2018,40.7456838716206,Tier_4_Low,0,False,False,False
+UZB,Uzbekistan,2019,44.90521242415444,Tier_4_Low,0,False,False,False
+UZB,Uzbekistan,2020,44.63807778302916,Tier_4_Low,0,False,False,False
+UZB,Uzbekistan,2021,47.10252676993188,Tier_4_Low,0,False,False,False
+UZB,Uzbekistan,2022,50.11217411314555,Tier_4_Low,0,False,False,False
+VCT,Saint Vincent and the Grenadines,2018,52.953008347836175,,1,False,True,False
+VCT,Saint Vincent and the Grenadines,2019,54.25463722586754,,1,False,True,False
+VCT,Saint Vincent and the Grenadines,2020,54.86233724123634,,1,False,True,False
+VCT,Saint Vincent and the Grenadines,2021,56.643457758067726,,1,False,True,False
+VCT,Saint Vincent and the Grenadines,2022,59.11877225680761,,1,False,True,False
+VEN,Venezuela,2018,52.27860852140845,Tier_4_Low,0,False,False,False
+VEN,Venezuela,2019,47.70664938818075,Tier_4_Low,0,False,False,False
+VEN,Venezuela,2020,49.901044099528534,Tier_4_Low,0,False,False,False
+VEN,Venezuela,2021,51.75970655403272,Tier_4_Low,0,False,False,False
+VEN,Venezuela,2022,54.53795968669472,Tier_4_Low,0,False,False,False
+VGB,British Virgin Islands,2018,50.592436888766784,,1,False,True,False
+VGB,British Virgin Islands,2019,59.15755642181491,,1,False,True,False
+VGB,British Virgin Islands,2020,60.06732458026256,Tier_2_Good,2,True,True,False
+VGB,British Virgin Islands,2021,56.14064185818504,,1,False,True,False
+VGB,British Virgin Islands,2022,51.351116575081576,Tier_3_Moderate,1,True,False,False
+VIR,Virgin Islands (U.S.),2018,80.72393241264263,Tier_2_Good,2,True,True,False
+VIR,Virgin Islands (U.S.),2019,80.59914425633254,Tier_2_Good,2,True,True,False
+VIR,Virgin Islands (U.S.),2020,80.78829965250097,Tier_2_Good,2,True,True,False
+VIR,Virgin Islands (U.S.),2021,81.87535652385831,Tier_2_Good,2,True,True,False
+VIR,Virgin Islands (U.S.),2022,83.35511087001059,Tier_2_Good,2,True,True,False
+VNM,Viet Nam,2018,48.972089380860645,Tier_4_Low,0,False,False,False
+VNM,Viet Nam,2019,49.166981571754796,Tier_4_Low,0,False,False,False
+VNM,Viet Nam,2020,49.67858520132172,Tier_4_Low,0,False,False,False
+VNM,Viet Nam,2021,51.226019958996694,Tier_4_Low,0,False,False,False
+VNM,Viet Nam,2022,53.49025409282517,Tier_4_Low,0,False,False,False
+VUT,Vanuatu,2018,34.03295021875767,Tier_4_Low,0,False,False,False
+VUT,Vanuatu,2019,35.37968549180329,Tier_4_Low,0,False,False,False
+VUT,Vanuatu,2020,35.04915264973556,Tier_4_Low,0,False,False,False
+VUT,Vanuatu,2021,32.215765822048795,Tier_4_Low,0,False,False,False
+VUT,Vanuatu,2022,36.61733785724253,Tier_4_Low,0,False,False,False
+WSM,Samoa,2018,35.89569362575862,Tier_4_Low,0,False,False,False
+WSM,Samoa,2019,36.26697248664797,Tier_4_Low,0,False,False,False
+WSM,Samoa,2020,36.355828950963684,Tier_4_Low,0,False,False,False
+WSM,Samoa,2021,37.79544875491894,Tier_4_Low,0,False,False,False
+WSM,Samoa,2022,36.941350057136326,Tier_4_Low,0,False,False,False
+XKX,Kosovo,2018,54.71219569913995,Tier_4_Low,0,False,False,False
+XKX,Kosovo,2019,45.7564984366555,Tier_4_Low,0,False,False,False
+XKX,Kosovo,2020,46.27356416905998,Tier_4_Low,0,False,False,False
+XKX,Kosovo,2021,48.9737505596717,,1,False,True,False
+XKX,Kosovo,2022,50.21841770669657,,1,False,True,False
+YEM,Yemen,2018,25.150424437720563,Tier_4_Low,0,False,False,False
+YEM,Yemen,2019,43.922629583754,,1,False,True,False
+YEM,Yemen,2020,52.16706398802249,,1,False,True,False
+YEM,Yemen,2021,51.13894626527476,,1,False,True,False
+YEM,Yemen,2022,49.856629190545874,,1,False,True,False
+ZAF,South Africa,2018,54.74468010593937,,1,False,True,False
+ZAF,South Africa,2019,56.63271915751247,Tier_2_Good,2,True,True,False
+ZAF,South Africa,2020,55.72739314376144,,1,False,True,False
+ZAF,South Africa,2021,57.64763685568691,,1,False,True,False
+ZAF,South Africa,2022,58.68931070079359,,1,False,True,False
+ZMB,Zambia,2018,27.573620555845917,Tier_4_Low,0,False,False,False
+ZMB,Zambia,2019,27.08363707822433,Tier_4_Low,0,False,False,False
+ZMB,Zambia,2020,25.65445053958098,Tier_4_Low,0,False,False,False
+ZMB,Zambia,2021,26.11772276504329,Tier_4_Low,0,False,False,False
+ZMB,Zambia,2022,27.595823884785336,Tier_4_Low,0,False,False,False
+ZWE,Zimbabwe,2018,33.321415121041504,Tier_4_Low,0,False,False,False
+ZWE,Zimbabwe,2019,34.19629777263932,Tier_4_Low,0,False,False,False
+ZWE,Zimbabwe,2020,33.92870108242759,Tier_4_Low,0,False,False,False
+ZWE,Zimbabwe,2021,36.52225692346438,Tier_4_Low,0,False,False,False
+ZWE,Zimbabwe,2022,37.853739705660644,Tier_4_Low,0,False,False,False

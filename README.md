@@ -16,9 +16,13 @@ Production-grade ETL pipeline for extracting, transforming, validating, and load
 ```
 emri-capstone/
 ├── configs/                      # Configuration folder (placeholder for env-specific configs)
-├── data/
+├── data/                         # Legacy data directory
 │   ├── raw/                      # Cached raw JSON from World Bank API
 │   └── output/                   # Final outputs (CSV, Parquet, EDA visualizations)
+├── data_raw/                     # Raw input data for analysis
+├── data_processed/               # Processed CSV outputs (classifications, complete datasets)
+├── figures/                      # Analysis visualizations and plots (PNG)
+├── models/                       # Trained model files (pickled classifiers)
 ├── docs/
 │   ├── architecture.md           # System architecture documentation
 │   ├── api_reference.md          # Python API reference

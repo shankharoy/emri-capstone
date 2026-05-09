@@ -1,0 +1,27 @@
+{
+  "layer_1_thresholds": {
+    "internet_penetration": 68.0,
+    "urbanization": 52.0,
+    "flfp": 48.0,
+    "logic": "AND"
+  },
+  "layer_2_thresholds": {
+    "gdp_per_capita": 5000.0,
+    "gni_per_capita": 4500.0
+  },
+  "layer_3_thresholds": {
+    "population_millions": 10.0,
+    "urban_population_pct": 40.0
+  },
+  "emri_weights": {
+    "DII": 0.25,
+    "HCI": 0.2,
+    "ESI": 0.2,
+    "GEI": 0.1,
+    "SRI": 0.1,
+    "PSI": 0.1,
+    "SSI": 0.05
+  },
+  "classification_threshold": 61.49957743462162,
+  "classification_percentile": 60
+}

@@ -1,0 +1,45 @@
+{
+  "rq1_spearman": {
+    "rho": 0.7409184067900533,
+    "p_value": 2.4390635143992628e-222,
+    "significant": "True",
+    "effect_size": "Very Large"
+  },
+  "rq2_mannwhitney": {
+    "u_statistic": 391706.0,
+    "p_value": 7.83891117123277e-181,
+    "high_digital_mean": 71.29960386481274,
+    "low_digital_mean": 40.1737476055233,
+    "effect_size_r": 0.8030607577483618,
+    "effect_interpretation": "Large"
+  },
+  "rq3_ols": {
+    "r_squared": 0.9785587491030383,
+    "adj_r_squared": 0.9785081403283011,
+    "f_pvalue": 0.0,
+    "coefficients": {
+      "const": -41.448202127101915,
+      "Internet_Users_Pct": 0.36826790015168664,
+      "Female_Labor_Participation_Pct": 0.12065024979111916,
+      "GDP_Per_Capita_Log": 7.579811498642354
+    }
+  },
+  "rq4_classification": {
+    "accuracy": 0.9973890339425587,
+    "precision": 0.9935064935064936,
+    "recall": 1.0,
+    "f1": 0.996742671009772,
+    "auc_roc": 1.0,
+    "cv_auc_mean": 0.9999871844162502,
+    "selected_features": [
+      "DII",
+      "HCI",
+      "ESI",
+      "GEI",
+      "SRI",
+      "SSI"
+    ],
+    "threshold": 61.49957743462162
+  },
+  "timestamp": "20260502_001152"
+}

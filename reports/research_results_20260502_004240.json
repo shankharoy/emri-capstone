@@ -1,0 +1,59 @@
+{
+  "rq1_spearman": {
+    "rho": 0.7409184067900533,
+    "p_value": 2.4390635143992628e-222,
+    "significant": "True",
+    "effect_size": "Very Large"
+  },
+  "rq2_mannwhitney": {
+    "u_statistic": 391706.0,
+    "p_value": 7.83891117123277e-181,
+    "high_digital_mean": 71.29960386481274,
+    "low_digital_mean": 40.1737476055233,
+    "effect_size_r": 0.8030607577483618,
+    "effect_interpretation": "Large"
+  },
+  "rq3_ols": {
+    "r_squared": 0.9785587491030383,
+    "adj_r_squared": 0.9785081403283011,
+    "f_pvalue": 0.0,
+    "coefficients": {
+      "const": -41.448202127101915,
+      "Internet_Users_Pct": 0.36826790015168664,
+      "Female_Labor_Participation_Pct": 0.12065024979111916,
+      "GDP_Per_Capita_Log": 7.579811498642354
+    }
+  },
+  "rq4_classification": {
+    "model_type": "RandomForestClassifier",
+    "n_estimators": 200,
+    "max_depth": 10,
+    "oob_score": 0.9798206278026906,
+    "accuracy": 0.9817232375979112,
+    "precision": 0.9866666666666667,
+    "recall": 0.9673202614379085,
+    "f1": 0.976897689768977,
+    "auc_roc": 0.9990622335890877,
+    "cv_auc_mean": 0.9979751377675253,
+    "selected_features": [
+      "DII",
+      "HCI",
+      "ESI",
+      "GEI",
+      "SRI",
+      "PSI",
+      "SSI"
+    ],
+    "threshold": 61.49957743462162,
+    "feature_importance": {
+      "DII": 0.11806997467380503,
+      "HCI": 0.020309793389189763,
+      "ESI": 0.16842426302528804,
+      "GEI": 0.2860905704025626,
+      "SRI": 0.043732274779426296,
+      "PSI": 0.16172973346885205,
+      "SSI": 0.20164339026087616
+    }
+  },
+  "timestamp": "20260502_004240"
+}

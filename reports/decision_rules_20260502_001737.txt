@@ -1,0 +1,41 @@
+
+================================================================================
+EMRI THREE-LAYER DECISION RULES
+================================================================================
+
+MARKET ENTRY DECISION TREE:
+
+IF Layer 1 (Digital Infrastructure) ALL TRUE:
+   ├── Internet Penetration > 68%
+   ├── Urbanization > 52%
+   └── FLFP > 48%
+   │
+   └── IF Layer 2 (Market Density) ALL TRUE:
+       ├── GDP per capita > $5,000
+       └── GNI per capita > $4,500
+       │
+       └── IF Layer 3 (Consumer Base) ALL TRUE:
+           ├── Population > 10 Million
+           └── Urban Population > 40%
+           │
+           └── DECISION: TIER 1 - HIGH READINESS
+       │
+       └── ELSE Layer 3 FALSE:
+           └── DECISION: TIER 2 - GOOD READINESS
+   │
+   └── ELSE Layer 2 FALSE:
+       └── DECISION: TIER 3 - MODERATE READINESS
+   │
+ELSE Layer 1 FALSE:
+   └── DECISION: TIER 4 - LOW READINESS
+
+CLASSIFICATION THRESHOLD:
+   • EMRI Score ≥ 61.50 → High Growth Market
+   • EMRI Score < 61.50 → Low Growth Market
+
+RISK MONITORING:
+   • Model AUC threshold: ≥ 0.80
+   • VIF threshold: ≤ 5.0
+   • Data refresh: Semi-annual
+
+================================================================================

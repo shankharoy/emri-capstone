@@ -15,57 +15,67 @@ Production-grade ETL pipeline for extracting, transforming, validating, and load
 
 ```
 emri-capstone/
+├── analysis/                     # Working analysis scripts and extracted content
+│   ├── extract_pdf.py            # PDF extraction utilities
+│   ├── generate_concise_report.py  # Report generation script
+│   ├── pdf_extracted.txt         # Extracted PDF content
+│   └── pptx_content.txt          # Extracted PowerPoint content
+├── artifacts/                    # Generated artifacts (threshold tables, JSON outputs)
 ├── configs/                      # Configuration folder (placeholder for env-specific configs)
-├── data/                         # Legacy data directory
+├── data/                         # Legacy WDI ETL pipeline data
 │   ├── raw/                      # Cached raw JSON from World Bank API
 │   └── output/                   # Final outputs (CSV, Parquet, EDA visualizations)
-├── data_raw/                     # Raw input data for analysis
-├── data_processed/               # Processed CSV outputs (classifications, complete datasets)
-├── figures/                      # Analysis visualizations and plots (PNG)
-├── models/                       # Trained model files (pickled classifiers)
+├── data_processed/               # EMRI processed outputs (classifications, complete datasets)
+├── data_raw/                     # EMRI raw input data directory
 ├── docs/
 │   ├── architecture.md           # System architecture documentation
 │   ├── api_reference.md          # Python API reference
 │   └── usage_guide.md            # Detailed usage instructions
+├── figures/                      # Analysis visualizations and plots (PNG)
+│   ├── rq1_spearman_analysis.png
+│   ├── rq2_mannwhitney_analysis.png
+│   ├── rq3_ols_regression.png
+│   ├── rq4_classification.png
+│   └── three_layer_classification.png
 ├── logs/                         # Pipeline execution logs (rotating)
-├── notebooks/
-│   ├── wdi_eda.ipynb            # Basic EDA notebook
-│   └── wdi_eda_professional.ipynb  # Professional EDA notebook
-├── references/                   # API docs, data dictionaries
-├── src/wdi_etl/                 # Main Python package (src-layout)
-│   ├── __init__.py              # Public API exports
-│   ├── __main__.py              # CLI entry point
+├── models/                       # Trained classifier models (pickled)
+├── notebooks/                    # Jupyter notebooks for analysis
+│   ├── wdi_eda.ipynb             # Basic WDI EDA notebook
+│   ├── wdi_eda_professional.ipynb  # Professional WDI EDA notebook
+│   ├── EMAR_Complete_Analytical_Pipeline.ipynb  # EMAR analysis pipeline
+│   ├── EMRI_Production_Pipeline_v4.ipynb        # EMRI production pipeline
+│   ├── EMRI_Risk_Mitigation_Validation.ipynb  # Risk mitigation validation
+│   └── *.png                     # Analysis visualization outputs
+├── references/                   # API docs, data dictionaries, reference materials
+├── reports/                      # Generated reports (decision rules, research results)
+├── src/wdi_etl/                  # Main Python package (src-layout)
+│   ├── __init__.py               # Public API exports
+│   ├── __main__.py               # CLI entry point
 │   ├── api/
 │   │   ├── __init__.py
-│   │   └── client.py            # World Bank API client with retry logic
+│   │   └── client.py             # World Bank API client with retry logic
 │   ├── cli/
 │   │   ├── __init__.py
-│   │   └── commands.py          # CLI argument parsing and orchestration
+│   │   └── commands.py           # CLI argument parsing and orchestration
 │   ├── core/
 │   │   ├── __init__.py
-│   │   ├── config.py            # Centralized configuration
-│   │   ├── load.py              # CSV & Parquet output writers
-│   │   └── transform.py         # Data cleaning & validation
+│   │   ├── config.py             # Centralized configuration
+│   │   ├── load.py               # CSV & Parquet output writers
+│   │   └── transform.py          # Data cleaning & validation
 │   ├── eda/
 │   │   ├── __init__.py
-│   │   └── analysis.py          # Statistical analysis & visualizations
+│   │   └── analysis.py           # Statistical analysis & visualizations
 │   └── utils/
 │       ├── __init__.py
 │       └── logging_config.py     # Centralized logging setup
 ├── tests/                        # Test suite
-│   ├── conftest.py              # Pytest fixtures
-│   ├── fixtures/                # Test data files
-│   ├── integration/
-│   │   ├── __init__.py
-│   │   └── test_pipeline.py     # End-to-end pipeline tests
-│   └── unit/
-│       ├── test_api/            # API client unit tests
-│       ├── test_cli/            # CLI unit tests
-│       ├── test_core/           # Core (config, transform, load) tests
-│       └── test_utils/          # Utilities tests
-├── pyproject.toml               # Project metadata, dependencies, tool configs
-├── requirements.txt             # Production dependencies
-└── README.md                    # This file
+│   ├── conftest.py               # Pytest fixtures
+│   ├── fixtures/                 # Test data files
+│   ├── integration/              # End-to-end pipeline tests
+│   └── unit/                     # Unit tests (api, cli, core, utils)
+├── pyproject.toml                # Project metadata, dependencies, tool configs
+├── requirements.txt              # Production dependencies
+└── README.md                     # This file
 ```
 
 ## Quick Start

@@ -1,0 +1,289 @@
+Presentation: EMRI_Presentation_Professional.pptx
+Total Slides: 18
+================================================================================
+
+SLIDE 1:
+--------------------------------------------------------------------------------
+Explainable Market Readiness Index (EMRI)
+A Data-Driven Framework for Predicting High-Growth
+Sales Potential in Emerging Economies
+Shankha Roy
+
+Walsh College | QM640: Data Analytics Capstone
+
+Dr. Vikas S | April 2026
+
+SLIDE 2:
+--------------------------------------------------------------------------------
+Research Roadmap
+1. Problem Context
+
+   Market entry timing failures in emerging economies
+
+
+2. Research Objectives
+
+   Quantify digital infrastructure impact on market readiness
+
+
+3. Methodology
+
+   Statistical analysis of 217 economies (2018–2022)
+4. Key Findings
+
+   Digital adoption & urbanization as primary predictors
+
+
+5. Strategic Implications
+
+   Threshold-based decision rules for market prioritization
+
+
+6. Implementation
+
+   Actionable framework for FMCG firms
+
+SLIDE 3:
+--------------------------------------------------------------------------------
+The Market Entry Timing Problem
+Current Challenge
+FMCG firms deploy hundreds of billions annually in emerging markets
+
+Traditional approaches rely on GDP per capita — a lagging indicator that:
+Reflects historical performance, not future readiness
+Oversights structural prerequisites for digital commerce
+Leads to premature or delayed market entry
+Consequences
+Capital Misallocation
+Investments in markets lacking digital infrastructure or urban density
+Missed Opportunities
+Late entry into high-growth markets after competitors establish dominance
+Suboptimal ROI
+3–5-year planning horizons undermined by structural misalignment
+
+SLIDE 4:
+--------------------------------------------------------------------------------
+Digital Infrastructure: The New Market Readiness Indicator
+Economies surpassing 60-70% internet penetration experience nonlinear increases in e-commerce transaction volume
+Source: International Telecommunication Union (ITU), 2023
+Internet Penetration
+Enables e-commerce viability and digital payment ecosystems
+60-70%
+Critical threshold
+Urbanization Rate
+Determines last-mile fulfillment feasibility and retail distribution density
+50%+
+Urban majority
+Female Labour Force
+Signals dual-income households and discretionary consumption expansion
+45%+
+Growth indicator
+
+SLIDE 5:
+--------------------------------------------------------------------------------
+Research Objectives
+1
+Quantify Digital Infrastructure Impact (Spearman p )
+Measure the relationship between internet penetration and Total Addressable Market (TAM) for e-commerce
+2
+Assess Workforce Composition(Mann-Whitney U)
+Evaluate whether female labour force participation produces significant differences in consumer spending growth
+3
+Compare Predictive Strength(OLS Regression)
+Determine whether urbanization rate or GNI per capita serves as the stronger predictor of retail market maturity
+4
+Build Classification Model (Decision Tree/Random forest / Logistic Regression)
+Achieve F1-score ≥ 0.80 in classifying high-growth markets using transparent, threshold-based rules
+
+SLIDE 6:
+--------------------------------------------------------------------------------
+Research Hypotheses (RQ1–RQ4)
+1
+Digital Infrastructure & Total Addressable Market
+• H1₀: No monotonic link between internet access % and e‑commerce TAM (ρ = 0).• H1ₐ: Positive predictor with Spearman ρ ≥ 0.60 (p < 0.05); internet penetration is a market‑entry precondition.
+2
+Workforce Dynamics & Consumer Spending Velocity
+• H2₀: Female labour participation not linked to YoY GDP per capita growth (μ₁ = μ₂).• H2ₐ: Above‑median participation markets grow faster at α = 0.05 (μ₁ ≠ μ₂, p < 0.05); valid secondary EMRI filter.
+3
+Urban Density as a Market Maturity Signal
+• H3₀: Urbanization and GNI per capita explain maturity equally (R²_Urban = R²_GNI).• H3ₐ: Urbanization explains more variance (R²_Urban > R²_GNI); density leads scalability more than wealth.
+4
+Predictive Classification of High Growth Markets
+• H4₀: Inadequate model: accuracy < 0.80 and F1 ≤ 0.50.• H4ₐ: Strong model: accuracy ≥ 0.80, F1 ≥ 0.80, AUC–ROC ≥ 0.85.
+H0 = Null Hypothesis | Ha = Alternative Hypothesis | All tests: alpha = 0.05, Power = 0.80 | Data: World Bank WDI (2018-2022)
+
+SLIDE 7:
+--------------------------------------------------------------------------------
+Methodology: Six-Phase Analytical Framework
+Data Source: World Bank Development Indicators | 217 economies | 2018–2022 | Longitudinal panel data
+Phase 1: Data Collection & Quality Control
+
+          Extract, validate, and handle missing values via KNN imputation
+
+
+Phase 2: Exploratory Data Analysis (EDA)
+
+          Spearman correlation, distribution analysis, outlier detection
+
+
+Phase 3: Comparative Statistical Testing
+
+          Mann-Whitney U tests, multivariate OLS regression
+Phase 4: Classification Modeling
+
+          Logistic regression & decision tree with depth constraints
+
+
+Phase 5: Residual Analysis
+
+          Identify 'Hidden Gems' — markets outperforming predictions
+
+
+Phase 6: Visualization & Reporting
+
+          Market Priority Matrix, decision tree rules, executive summary
+
+SLIDE 8:
+--------------------------------------------------------------------------------
+Statistical & Machine Learning Techniques
+Spearman Rank Correlation
+Non-parametric measure of monotonic relationships between structural indicators
+Mann-Whitney U Test
+Compare consumer spending distributions across high vs. low FLFP markets
+Ordinary Least Squares (OLS)
+Multivariate regression quantifying marginal effects of predictors on TAM
+Logistic Regression
+Binary classification with probability outputs for high-growth market potential
+Classification Classifier
+Depth-constrained, interpretable IF-THEN rules for executive decision-making
+
+SLIDE 9:
+--------------------------------------------------------------------------------
+Sample size calculation
+Power Analysis : Spearman (RQ1)
+α=.05; power=.80; r=.30; min N=85.
+Power Analysis : Mann-Whitney (RQ2)
+α=.05; power=.80; d=.50; N=204 (102/group).
+Power analysis : OLS (RQ3)
+α=.05; power=.80; k=2; f²=.15; N=107.
+Power analysis : Classification (RQ4)
+Min class=.40; leaf=30; depth=3; N=720.
+Analytic
+Set N=1,060; exceeds N=720 by 1.47–1.84×.
+
+SLIDE 10:
+--------------------------------------------------------------------------------
+Preliminary Findings
+Digital adoption and urbanization consistently emerge as dominant predictors of e-commerce scalability
+Finding 1
+Internet Penetration Threshold
+Markets crossing 60-70% internet access demonstrate exponential TAM expansion, outperforming GDP-based predictions by 2–3-year lead time
+Finding 2
+Female Labour Force Impact
+FLFP rates above 45% correlate significantly with discretionary FMCG consumption, signaling dual-income household formation
+Finding 3
+Urbanization Strength
+Urban population >50% emerges as stronger predictor of retail maturity than GNI per capita, due to last-mile logistics viability
+
+SLIDE 11:
+--------------------------------------------------------------------------------
+The EMRI Framework
+A Three-Layer Classification System for Market Readiness
+Layer 1: Digital Infrastructure Assessment
+IF Internet Penetration ≥ 68% → High Digital Readiness
+ELSE → Structural Gap Present
+Layer 2: Market Density Verification
+IF Urbanization ≥ 52% → Distribution Network Viable
+ELSE → Last-Mile Challenges Expected
+Layer 3: Consumer Base Composition
+IF Female Labour Force Participation ≥ 48% → Premium Segment Growth
+ELSE → Value-Tier Market
+Classification Outcome
+Markets passing all three layers classified as HIGH-GROWTH with F1-score target ≥ 0.80
+
+SLIDE 12:
+--------------------------------------------------------------------------------
+Strategic Applications
+1. Precision Market Prioritization
+Annually refreshable filter identifying high-growth digital retail markets based on structural readiness, not lagging GDP metrics
+2. ROI-Driven Investment Planning
+Quantified marginal impact of internet access, urbanization, and FLFP supports ROI-aligned capital allocation over 3-5 year horizons
+3. Actionable Entry Rules
+Clear threshold-based decision rules embedded directly into strategic playbooks for executive review and board-level approval
+4. Portfolio Optimization
+Segment 217 global markets into strategic quadrants enabling differentiated go-to-market strategies and efficient portfolio management
+Example Entry Rule: Enter market IF Internet Penetration > 68% AND Urbanization > 52% AND FLFP > 48%
+
+SLIDE 13:
+--------------------------------------------------------------------------------
+Risks & Mitigation Strategies
+Construct Validity
+Risk: GDP per capita imperfectly proxies e-commerce TAM (excludes informal market activity)
+Mitigation: Supplementary validation using ITU ICT Development Index and KOF Globalization Index as alternative outcome proxies
+
+SLIDE 14:
+--------------------------------------------------------------------------------
+Broader Implications for FMCG Strategy
+Scalable Across Emerging Market Portfolios
+Framework applies globally to 217 economies with semi-annual refresh capability via World Bank API, ensuring ongoing relevance
+
+SLIDE 15:
+--------------------------------------------------------------------------------
+Conclusion & Recommendations
+Strategic Recommendations
+1. Integrate EMRI into Annual Market Assessment Cycles
+   Replace GDP-only evaluations with EMRI's three-layer structural readiness framework
+
+2. Establish Semi-Annual Refresh Protocol
+   Automate data extraction from World Bank API to maintain current threshold validation
+
+3. Pilot EMRI in Southeast Asia & Sub-Saharan Africa
+   Test framework predictive accuracy against actual market performance in high-priority regions
+
+4. Develop Executive Dashboard for Market Portfolio Tracking
+   Visualize 217 economies by EMRI score with real-time threshold monitoring
+
+SLIDE 16:
+--------------------------------------------------------------------------------
+References
+Breiman, L., Friedman, J. H., Olshen, R. A., & Stone, C. J. (1984). Classification and regression trees. Wadsworth & Brooks/Cole.
+
+
+Fawcett, T. (2006). An introduction to ROC analysis. Pattern Recognition Letters, 27(8), 861-874.
+
+
+Hosmer, D. W., & Lemeshow, S. (2000). Applied logistic regression (2nd ed.). John Wiley & Sons.
+
+
+International Telecommunication Union. (2023). Measuring digital development: Facts and figures 2023. ITU Publications.
+
+
+McKinsey Global Institute. (2022). The future of e-commerce in emerging markets: Structural drivers and strategic implications. McKinsey & Company.
+
+
+OECD. (2022). Women at work in OECD countries: Progress and challenges. OECD Publishing.
+
+SLIDE 17:
+--------------------------------------------------------------------------------
+References (continued)
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., VanderPlas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., & Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
+
+
+Seabold, S., & Perktold, J. (2010). Statsmodels: Econometric and statistical modeling with Python. Proceedings of the 9th Python in Science Conference, 57-61.
+
+
+Sokolova, M., & Lapalme, G. (2009). A systematic analysis of performance measures for classification tasks. Information Processing & Management, 45(4), 427-437.
+
+
+World Bank. (2023). World development indicators 2023. The World Bank Group. https://data.worldbank.org
+
+
+World Bank. (2024). Female labor force participation: Trends and drivers. World Bank Policy Research Working Paper.
+
+SLIDE 18:
+--------------------------------------------------------------------------------
+Thank You
+Questions & Discussion
+Shankha Roy | Walsh College
+
+QM640: Data Analytics Capstone | Dr. Vikas S

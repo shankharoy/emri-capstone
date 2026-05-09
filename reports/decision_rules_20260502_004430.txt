@@ -1,0 +1,65 @@
+
+================================================================================
+EMRI THREE-LAYER DECISION RULES
+================================================================================
+
+MARKET ENTRY DECISION TREE:
+
+IF Layer 1 (Digital Infrastructure) ALL TRUE:
+   ├── Internet Penetration > 68%
+   ├── Urbanization > 52%
+   └── FLFP > 48%
+   │
+   └── IF Layer 2 (Market Density) ALL TRUE:
+       ├── GDP per capita > $5,000
+       └── GNI per capita > $4,500
+       │
+       └── IF Layer 3 (Consumer Base) ALL TRUE:
+           ├── Population > 10 Million
+           └── Urban Population > 40%
+           │
+           └── DECISION: TIER 1 - HIGH READINESS
+       │
+       └── ELSE Layer 3 FALSE:
+           └── DECISION: TIER 2 - GOOD READINESS
+   │
+   └── ELSE Layer 2 FALSE:
+       └── DECISION: TIER 3 - MODERATE READINESS
+   │
+ELSE Layer 1 FALSE:
+   └── DECISION: TIER 4 - LOW READINESS
+
+CLASSIFICATION MODEL (RQ4):
+Algorithm: Random Forest Classifier (Ensemble Method)
+  • Stability: Ensemble of 200 decision trees
+  • Bagging: Bootstrap aggregation for variance reduction
+  • OOB Score: 0.9798 (Out-of-bag validation)
+  • Max Depth: 10 (Regularized to prevent overfitting)
+  • Explainability: Feature importance via mean decrease in Gini
+  
+Classification Threshold:
+   • EMRI Score ≥ 61.50 → High Growth Market
+   • EMRI Score < 61.50 → Low Growth Market
+
+Feature Importance (Mean Decrease in Gini):
+   • DII: 0.1181
+   • HCI: 0.0203
+   • ESI: 0.1684
+   • GEI: 0.2861
+   • SRI: 0.0437
+   • PSI: 0.1617
+   • SSI: 0.2016
+
+STABILITY ADVANTAGES:
+   • Bagging reduces variance and prevents overfitting
+   • Random feature selection decorrelates trees
+   • OOB score provides unbiased performance estimate
+   • Robust to outliers and noise
+
+RISK MONITORING:
+   • Model AUC threshold: ≥ 0.80
+   • OOB Score threshold: ≥ 0.75
+   • VIF threshold: ≤ 5.0
+   • Data refresh: Semi-annual
+
+================================================================================

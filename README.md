@@ -15,11 +15,6 @@ Production-grade ETL pipeline for extracting, transforming, validating, and load
 
 ```
 emri-capstone/
-├── analysis/                     # Working analysis scripts and extracted content
-│   ├── extract_pdf.py            # PDF extraction utilities
-│   ├── generate_concise_report.py  # Report generation script
-│   ├── pdf_extracted.txt         # Extracted PDF content
-│   └── pptx_content.txt          # Extracted PowerPoint content
 ├── artifacts/                    # Generated artifacts (threshold tables, JSON outputs)
 ├── configs/                      # Configuration folder (placeholder for env-specific configs)
 ├── data/                         # Legacy WDI ETL pipeline data

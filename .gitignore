@@ -12,6 +12,7 @@ pipeline/
 
 # Analysis working files
 analysis/
+analysis/**
 
 # Python
 __pycache__/

@@ -37,7 +37,7 @@ emri-capstone/
 ├── notebooks/                    # Jupyter notebooks for analysis
 │   ├── wdi_eda.ipynb             # Basic WDI EDA notebook
 │   ├── wdi_eda_professional.ipynb  # Professional WDI EDA notebook
-│   ├── EMAR_Complete_Analytical_Pipeline.ipynb  # EMAR analysis pipeline
+│   ├── EMRI_Complete_Analytical_Pipeline.ipynb  # EMRI complete analytical pipeline
 │   ├── EMRI_Production_Pipeline_v4.ipynb        # EMRI production pipeline
 │   ├── EMRI_Risk_Mitigation_Validation.ipynb  # Risk mitigation validation
 │   └── *.png                     # Analysis visualization outputs

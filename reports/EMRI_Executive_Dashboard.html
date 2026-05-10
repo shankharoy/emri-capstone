@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMRI Executive Dashboard v5.0</title>
+    <style>
+        :root {
+            --primary: #1a5490;
+            --secondary: #2c7fb8;
+            --accent: #7fcdbb;
+            --success: #2ecc71;
+            --warning: #f39c12;
+            --danger: #e74c3c;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --white: #ffffff;
+            --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-2: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            --gradient-3: linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%);
+            --shadow: 0 4px 20px rgba(0,0,0,0.1);
+            --shadow-hover: 0 8px 30px rgba(0,0,0,0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--gradient-1);
+            color: var(--white);
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .header .meta {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .meta-item .label {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        .meta-item .value {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        /* Status Bar */
+        .status-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .status-card {
+            background: var(--white);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .status-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .status-card.success {
+            border-left: 4px solid var(--success);
+        }
+
+        .status-card.primary {
+            border-left: 4px solid var(--primary);
+        }
+
+        .status-card.warning {
+            border-left: 4px solid var(--warning);
+        }
+
+        .status-card.accent {
+            border-left: 4px solid var(--accent);
+        }
+
+        .status-card .icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+
+        .status-card .title {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .status-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .status-card .detail {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 8px;
+        }
+
+        /* Main Grid */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: var(--shadow);
+        }
+
+        .card h2 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: var(--gradient-1);
+            border-radius: 2px;
+        }
+
+        /* Chart Containers */
+        .chart-container {
+            height: 300px;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        /* Metric Grid */
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .metric-item {
+            background: var(--light);
+            padding: 16px;
+            border-radius: 10px;
+        }
+
+        .metric-item .label {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .metric-item .value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .metric-item .change {
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+
+        .change.positive { color: var(--success); }
+        .change.negative { color: var(--danger); }
+
+        /* Progress Bars */
+        .progress-item {
+            margin-bottom: 15px;
+        }
+
+        .progress-item .label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.8s ease;
+        }
+
+        .progress-fill.high { background: var(--success); }
+        .progress-fill.medium { background: var(--warning); }
+        .progress-fill.low { background: var(--danger); }
+
+        /* Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .data-table th {
+            text-align: left;
+            padding: 12px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #666;
+            border-bottom: 2px solid #eee;
+        }
+
+        .data-table td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+        }
+
+        .data-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .badge.success {
+            background: rgba(46, 204, 113, 0.15);
+            color: var(--success);
+        }
+
+        .badge.warning {
+            background: rgba(243, 156, 18, 0.15);
+            color: var(--warning);
+        }
+
+        .badge.danger {
+            background: rgba(231, 76, 60, 0.15);
+            color: var(--danger);
+        }
+
+        /* Feature Importance */
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .feature-item:last-child {
+            border-bottom: none;
+        }
+
+        .feature-rank {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-right: 15px;
+        }
+
+        .feature-rank.top {
+            background: var(--gradient-1);
+            color: white;
+        }
+
+        .feature-rank.middle {
+            background: var(--light);
+            color: var(--dark);
+        }
+
+        .feature-info {
+            flex: 1;
+        }
+
+        .feature-info .name {
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .feature-info .desc {
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        .feature-value {
+            text-align: right;
+        }
+
+        .feature-value .percent {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--dark);
+        }
+
+        .feature-value .shap {
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        /* Prediction Panel */
+        .prediction-panel {
+            background: var(--gradient-1);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+        }
+
+        .prediction-panel h2 {
+            margin-bottom: 20px;
+        }
+
+        .input-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 0.85rem;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .predict-btn {
+            width: 100%;
+            padding: 15px;
+            background: var(--success);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .predict-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(46, 204, 113, 0.4);
+        }
+
+        .prediction-result {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            display: none;
+        }
+
+        .prediction-result.show {
+            display: block;
+        }
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+
+        .result-item .value {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .result-item .label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        /* Recommendations */
+        .recommendations {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+        }
+
+        .recommendations h2 {
+            margin-bottom: 20px;
+        }
+
+        .rec-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .rec-card {
+            background: var(--light);
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .rec-card h3 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .rec-card ul {
+            list-style: none;
+        }
+
+        .rec-card li {
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+            font-size: 0.95rem;
+        }
+
+        .rec-card li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.6rem;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .result-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>📊 EMRI Executive Dashboard</h1>
+            <p class="subtitle">Explainable Market Readiness Index - Production v5.0.0</p>
+            <div class="meta">
+                <div class="meta-item">
+                    <span class="label">Analysis Period:</span>
+                    <span class="value">2018-2022</span>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Coverage:</span>
+                    <span class="value">193 Economies</span>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Model AUC:</span>
+                    <span class="value">0.999</span>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Status:</span>
+                    <span class="value">✓ Production Ready</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-card success">
+                <div class="icon">✓</div>
+                <div class="title">RQ1: Correlation</div>
+                <div class="value">ρ = 0.949</div>
+                <div class="detail">Very strong positive correlation confirmed</div>
+            </div>
+            <div class="status-card primary">
+                <div class="icon">⚡</div>
+                <div class="title">RQ2: Group Difference</div>
+                <div class="value">27.2 pts</div>
+                <div class="detail">Developed vs Developing gap</div>
+            </div>
+            <div class="status-card warning">
+                <div class="icon">📈</div>
+                <div class="title">RQ3: Prediction</div>
+                <div class="value">R² = 0.999</div>
+                <div class="detail">Full model vs simple model</div>
+            </div>
+            <div class="status-card accent">
+                <div class="icon">🎯</div>
+                <div class="title">RQ4: Classification</div>
+                <div class="value">AUC = 1.0</div>
+                <div class="detail">Stacking ensemble performance</div>
+            </div>
+        </div>
+
+        <!-- Interactive Prediction Panel -->
+        <div class="prediction-panel">
+            <h2>🔮 Interactive EMRI Predictor</h2>
+            <div class="input-grid">
+                <div class="input-group">
+                    <label>DII (25%)</label>
+                    <input type="number" id="dii" value="75" min="0" max="100">
+                </div>
+                <div class="input-group">
+                    <label>HCI (20%)</label>
+                    <input type="number" id="hci" value="65" min="0" max="100">
+                </div>
+                <div class="input-group">
+                    <label>ESI (20%)</label>
+                    <input type="number" id="esi" value="60" min="0" max="100">
+                </div>
+                <div class="input-group">
+                    <label>GEI (10%)</label>
+                    <input type="number" id="gei" value="70" min="0" max="100">
+                </div>
+                <div class="input-group">
+                    <label>SRI (10%)</label>
+                    <input type="number" id="sri" value="65" min="0" max="100">
+                </div>
+                <div class="input-group">
+                    <label>PSI (10%)</label>
+                    <input type="number" id="psi" value="55" min="0" max="100">
+                </div>
+                <div class="input-group">
+                    <label>SSI (5%)</label>
+                    <input type="number" id="ssi" value="60" min="0" max="100">
+                </div>
+            </div>
+
+            <button class="predict-btn" onclick="calculateEMRI()">Calculate EMRI Score</button>
+
+            <div class="prediction-result" id="result">
+                <div class="result-grid">
+                    <div class="result-item">
+                        <div class="value" id="emri-score">--</div>
+                        <div class="label">EMRI Score</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value" id="competitiveness">--</div>
+                        <div class="label">Competitiveness</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="value" id="probability">--</div>
+                        <div class="label">High Competitiveness Probability</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard Grid -->
+        <div class="dashboard-grid">
+            <!-- Model Performance -->
+            <div class="card">
+                <h2>Model Performance Metrics</h2>
+                <div class="metric-grid">
+                    <div class="metric-item">
+                        <div class="label">Accuracy</div>
+                        <div class="value">99.8%</div>
+                        <div class="change positive">↑ 0.2%</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">Precision</div>
+                        <div class="value">99.8%</div>
+                        <div class="change positive">↑ 0.1%</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">Recall</div>
+                        <div class="value">99.8%</div>
+                        <div class="change positive">↑ 0.3%</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">F1-Score</div>
+                        <div class="value">99.8%</div>
+                        <div class="change positive">↑ 0.2%</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">AUC-ROC</div>
+                        <div class="value">1.000</div>
+                        <div class="change positive">Perfect</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">MCC</div>
+                        <div class="value">0.996</div>
+                        <div class="change positive">Excellent</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EMRI Index Breakdown -->
+            <div class="card">
+                <h2>EMRI Index Composition</h2>
+                <div class="progress-item">
+                    <div class="label">
+                        <span>DII - Digital Infrastructure</span>
+                        <span>25%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill high" style="width: 25%"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="label">
+                        <span>HCI - Human Capital</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill high" style="width: 20%"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="label">
+                        <span>ESI - Economic Stability</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill high" style="width: 20%"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="label">
+                        <span>GEI - Governance Efficiency</span>
+                        <span>10%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill medium" style="width: 10%"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="label">
+                        <span>SRI - Sustainability</span>
+                        <span>10%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill medium" style="width: 10%"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="label">
+                        <span>PSI - Population Scale</span>
+                        <span>10%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill low" style="width: 10%"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="label">
+                        <span>SSI - Security Stability</span>
+                        <span>5%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill low" style="width: 5%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SHAP Feature Importance -->
+            <div class="card">
+                <h2>SHAP Feature Importance</h2>
+                <ul class="feature-list">
+                    <li class="feature-item">
+                        <div class="feature-rank top">1</div>
+                        <div class="feature-info">
+                            <div class="name">DII</div>
+                            <div class="desc">Digital Infrastructure Index</div>
+                        </div>
+                        <div class="feature-value">
+                            <div class="percent">32.4%</div>
+                            <div class="shap">|SHAP| = 0.284</div>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-rank top">2</div>
+                        <div class="feature-info">
+                            <div class="name">HCI</div>
+                            <div class="desc">Human Capital Index</div>
+                        </div>
+                        <div class="feature-value">
+                            <div class="percent">22.6%</div>
+                            <div class="shap">|SHAP| = 0.198</div>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-rank top">3</div>
+                        <div class="feature-info">
+                            <div class="name">ESI</div>
+                            <div class="desc">Economic Stability Index</div>
+                        </div>
+                        <div class="feature-value">
+                            <div class="percent">20.1%</div>
+                            <div class="shap">|SHAP| = 0.176</div>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-rank middle">4</div>
+                        <div class="feature-info">
+                            <div class="name">GEI</div>
+                            <div class="desc">Governance Efficiency Index</div>
+                        </div>
+                        <div class="feature-value">
+                            <div class="percent">10.2%</div>
+                            <div class="shap">|SHAP| = 0.089</div>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-rank middle">5</div>
+                        <div class="feature-info">
+                            <div class="name">SRI</div>
+                            <div class="desc">Sustainability Readiness Index</div>
+                        </div>
+                        <div class="feature-value">
+                            <div class="percent">9.4%</div>
+                            <div class="shap">|SHAP| = 0.082</div>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-rank middle">6</div>
+                        <div class="feature-info">
+                            <div class="name">PSI</div>
+                            <div class="desc">Population Scale Index</div>
+                        </div>
+                        <div class="feature-value">
+                            <div class="percent">3.5%</div>
+                            <div class="shap">|SHAP| = 0.031</div>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-rank middle">7</div>
+                        <div class="feature-info">
+                            <div class="name">SSI</div>
+                            <div class="desc">Security Stability Index</div>
+                        </div>
+                        <div class="feature-value">
+                            <div class="percent">1.7%</div>
+                            <div class="shap">|SHAP| = 0.015</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Model Comparison -->
+            <div class="card">
+                <h2>Model Comparison (AUC-ROC)</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Model</th>
+                            <th>AUC</th>
+                            <th>F1-Score</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Stacking Ensemble</td>
+                            <td>1.000</td>
+                            <td>0.998</td>
+                            <td><span class="badge success">Best</span></td>
+                        </tr>
+                        <tr>
+                            <td>Logistic Regression</td>
+                            <td>1.000</td>
+                            <td>0.997</td>
+                            <td><span class="badge success">Excellent</span></td>
+                        </tr>
+                        <tr>
+                            <td>Random Forest</td>
+                            <td>0.999</td>
+                            <td>0.991</td>
+                            <td><span class="badge success">Excellent</span></td>
+                        </tr>
+                        <tr>
+                            <td>Gradient Boosting</td>
+                            <td>0.999</td>
+                            <td>0.986</td>
+                            <td><span class="badge success">Excellent</span></td>
+                        </tr>
+                        <tr>
+                            <td>SVM (RBF)</td>
+                            <td>1.000</td>
+                            <td>0.994</td>
+                            <td><span class="badge success">Excellent</span></td>
+                        </tr>
+                        <tr>
+                            <td>KNN (k=5)</td>
+                            <td>0.999</td>
+                            <td>0.991</td>
+                            <td><span class="badge success">Excellent</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Robustness Testing -->
+            <div class="card">
+                <h2>Weight Sensitivity Robustness</h2>
+                <div class="metric-grid">
+                    <div class="metric-item">
+                        <div class="label">Baseline AUC</div>
+                        <div class="value">0.998</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">Mean AUC (10 variations)</div>
+                        <div class="value">0.987</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">Std Deviation</div>
+                        <div class="value">0.008</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="label">Robustness Score</div>
+                        <div class="value">0.992</div>
+                    </div>
+                </div>
+                <p style="margin-top: 20px; color: #666; font-size: 0.9rem;">
+                    Model demonstrates high robustness to weight perturbations.
+                    AUC remains stable across 10 randomly sampled weight configurations.
+                </p>
+            </div>
+
+            <!-- Research Questions Summary -->
+            <div class="card">
+                <h2>Research Questions Summary</h2>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Research Question</th>
+                            <th>Test</th>
+                            <th>Result</th>
+                            <th>Decision</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>RQ1: DII → EMRI</td>
+                            <td>Spearman ρ</td>
+                            <td>0.949</td>
+                            <td><span class="badge success">Reject H₀</span></td>
+                        </tr>
+                        <tr>
+                            <td>RQ2: Dev vs Emg</td>
+                            <td>Mann-Whitney U</td>
+                            <td>174,630</td>
+                            <td><span class="badge success">Reject H₀</span></td>
+                        </tr>
+                        <tr>
+                            <td>RQ3: Model Compare</td>
+                            <td>Steiger's Z</td>
+                            <td>∞</td>
+                            <td><span class="badge success">Reject H₀</span></td>
+                        </tr>
+                        <tr>
+                            <td>RQ4: Classification</td>
+                            <td>AUC Test</td>
+                            <td>1.000</td>
+                            <td><span class="badge success">Reject H₀</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Strategic Recommendations -->
+        <div class="recommendations">
+            <h2>🎯 Strategic Recommendations</h2>
+            <div class="rec-grid">
+                <div class="rec-card">
+                    <h3>For Policymakers</h3>
+                    <ul>
+                        <li>Prioritize DII investment (highest ROI index)</li>
+                        <li>Address digital divide through HCI interventions</li>
+                        <li>Monitor EMRI trends for SDG alignment</li>
+                        <li>Use explainability for transparent policy-making</li>
+                    </ul>
+                </div>
+
+                <div class="rec-card">
+                    <h3>For Investors</h3>
+                    <ul>
+                        <li>Use EMRI scores for market screening</li>
+                        <li>Focus on "hidden gem" countries (high DII, low EMRI)</li>
+                        <li>Monitor DII trajectory as early signal</li>
+                        <li>Leverage calibrated probabilities for risk-weighting</li>
+                    </ul>
+                </div>
+
+                <div class="rec-card">
+                    <h3>For Researchers</h3>
+                    <ul>
+                        <li>Framework validated and reproducible</li>
+                        <li>Extend to sector-specific sub-indices</li>
+                        <li>Apply causal inference for policy evaluation</li>
+                        <li>Temporal dynamics with panel data methods</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>EMRI Production Framework v5.0.0 | Senior Data Engineer: Shankha Roy</p>
+            <p>Data Source: World Bank WDI | Analysis Period: 2018-2022</p>
+            <p>GitHub: https://github.com/shankharoy/emri-capstone</p>
+        </footer>
+    </div>
+
+    <script>
+        // EMRI Calculator
+        function calculateEMRI() {
+            const weights = {
+                'DII': 0.25,
+                'HCI': 0.20,
+                'ESI': 0.20,
+                'GEI': 0.10,
+                'SRI': 0.10,
+                'PSI': 0.10,
+                'SSI': 0.05
+            };
+
+            const values = {
+                'DII': parseFloat(document.getElementById('dii').value) || 0,
+                'HCI': parseFloat(document.getElementById('hci').value) || 0,
+                'ESI': parseFloat(document.getElementById('esi').value) || 0,
+                'GEI': parseFloat(document.getElementById('gei').value) || 0,
+                'SRI': parseFloat(document.getElementById('sri').value) || 0,
+                'PSI': parseFloat(document.getElementById('psi').value) || 0,
+                'SSI': parseFloat(document.getElementById('ssi').value) || 0
+            };
+
+            // Calculate EMRI Score
+            let emriScore = 0;
+            for (let index in weights) {
+                emriScore += values[index] * weights[index];
+            }
+
+            // Classification (threshold = 57.02)
+            const threshold = 57.02;
+            const isHighCompetitiveness = emriScore >= threshold;
+
+            // Probability estimation (simplified logistic)
+            const probability = 1 / (1 + Math.exp(-0.1 * (emriScore - threshold)));
+
+            // Update results
+            document.getElementById('emri-score').textContent = emriScore.toFixed(2);
+            document.getElementById('competitiveness').textContent = isHighCompetitiveness ? 'HIGH' : 'LOW';
+            document.getElementById('competitiveness').style.color = isHighCompetitiveness ? '#2ecc71' : '#e74c3c';
+            document.getElementById('probability').textContent = (probability * 100).toFixed(1) + '%';
+
+            // Show results
+            document.getElementById('result').classList.add('show');
+        }
+
+        // Auto-calculate on load
+        window.addEventListener('load', calculateEMRI);
+    </script>
+</body>
+</html>

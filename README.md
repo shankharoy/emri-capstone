@@ -38,11 +38,17 @@ emri-capstone/
 │   ├── wdi_eda.ipynb             # Basic WDI EDA notebook
 │   ├── wdi_eda_professional.ipynb  # Professional WDI EDA notebook
 │   ├── EMRI_Complete_Analytical_Pipeline.ipynb  # EMRI complete analytical pipeline
-│   ├── EMRI_Production_Pipeline_v4.ipynb        # EMRI production pipeline
+│   ├── EMRI_Production_Pipeline_v4.ipynb        # EMRI production pipeline v4
+│   ├── EMRI_Production_Pipeline_Final.ipynb     # EMRI production pipeline v5 (SHAP, hyperparameter optimization, 2023 validation)
 │   ├── EMRI_Risk_Mitigation_Validation.ipynb  # Risk mitigation validation
 │   └── *.png                     # Analysis visualization outputs
 ├── references/                   # API docs, data dictionaries, reference materials
-├── reports/                      # Generated reports (decision rules, research results)
+├── reports/                      # Generated reports and dashboards
+│   ├── EMRI_Analytical_Report_Production.md    # Academic analytical report v5
+│   ├── EMRI_Executive_Dashboard.html           # Interactive executive dashboard
+│   ├── decision_rules_*.txt       # Decision rules from model outputs
+│   ├── research_results_*.json    # Research results data
+│   └── emri_risk_summary.txt      # Risk assessment summary
 ├── src/wdi_etl/                  # Main Python package (src-layout)
 │   ├── __init__.py               # Public API exports
 │   ├── __main__.py               # CLI entry point
@@ -198,6 +204,41 @@ The pipeline follows a modular, layered architecture:
 - **Type Safety**: Full type hints throughout codebase
 
 See [docs/architecture.md](docs/architecture.md) for detailed documentation.
+
+## EMRI Production Pipeline v5
+
+A comprehensive, production-grade analytical framework extending the EMRI methodology with advanced machine learning and explainability features.
+
+### Key Features
+
+- **Bayesian Hyperparameter Optimization** for Random Forest and Gradient Boosting models
+- **SHAP-Based Explainability** for global and local model interpretation
+- **Weight-Sensitivity Analysis** testing robustness across 10 weight configurations
+- **Out-of-Sample 2023 Validation** using latest World Bank indicators
+- **Stacking Ensemble** with calibrated probability outputs
+- **Production API** for real-time predictions
+
+### Research Questions Addressed
+
+1. **RQ1**: Spearman correlation between DII and EMRI (ρ = 0.949, p < 0.001)
+2. **RQ2**: Mann-Whitney U test for Developed vs Developing economies (27.2 point gap)
+3. **RQ3**: OLS regression with Steiger's Z-test comparing simple vs full models
+4. **RQ4**: Classification model comparison with AUC = 1.000
+
+### Model Performance
+
+| Model | AUC-ROC | F1-Score | Status |
+|-------|---------|----------|--------|
+| Stacking Ensemble | 1.000 | 0.998 | Best |
+| Logistic Regression | 1.000 | 0.997 | Excellent |
+| Random Forest | 0.999 | 0.991 | Excellent |
+| SVM (RBF) | 1.000 | 0.994 | Excellent |
+
+### Deliverables
+
+- **Notebook**: `notebooks/EMRI_Production_Pipeline_Final.ipynb`
+- **Report**: `reports/EMRI_Analytical_Report_Production.md`
+- **Dashboard**: `reports/EMRI_Executive_Dashboard.html` (open in browser)
 
 ## API Reference
 
